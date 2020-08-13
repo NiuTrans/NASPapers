@@ -1,7 +1,7 @@
 - [Neural Architecture Search](#NAS)
   - [Paper](#The Paper List)
     - [Surveys](#Surveys)
-    - [Reinforcement Learning Methods](#Reinforcement Learning Methods (RL))
+    - [Reinforcement Learning Methods](#Reinforcement-Learning-Methods-(RL))
     - [Gradient-based-methods---g](#Gradient-based Methods)
     - [Evaluationary-algorithms---ea](#Evaluationary Algorithms)
     - [Performance-prediction---pd](#Performance Prediction)
