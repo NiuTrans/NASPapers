@@ -1,5 +1,7 @@
+# A Paper List of Neural Architecture Search
+
 - [Neural Architecture Search](#NAS)
-  - [Paper](#The Paper List)
+  - [The Paper List](#The-Paper-List)
     - [Surveys](#Surveys)
     - [Reinforcement Learning Methods](#Reinforcement-Learning-Methods---RL)
     - [Gradient-based Methods](#Gradient-based-Methods---G)
@@ -15,7 +17,7 @@
 
 
 
-## Paper List
+## The Paper List
 
 ### Surveys
 | Title                                    | Venue |     Type     |                   Code                   | Year |
@@ -178,3 +180,5 @@
 | [Auto-Keras: An Efficient Neural Architecture Search System](https://arxiv.org/abs/1806.10282) |   -    | System | [github](https://github.com/keras-team/autokeras) | 2018 |
 | [Neural Network Intelligence](https://nni.readthedocs.io/en/latest/) |   -    | System | [github](https://github.com/microsoft/nni) |  -   |
 | [AdaNet: A Scalable and Flexible Framework for Automatically Learning Ensembles](https://arxiv.org/abs/1905.00080) | ICML-W | System | [github](https://github.com/tensorflow/adanet) | 2019 |
+
+For any questions, please feel free to contact Yinqiao Li (li.yin.qiao.2012 [at] hotmail [dot] com)
