@@ -2,11 +2,11 @@
   - [Paper](#The Paper List)
     - [Surveys](#Surveys)
     - [Reinforcement Learning Methods](#Reinforcement-Learning-Methods---RL)
-    - [Gradient-based-methods---g](#Gradient-based Methods)
-    - [Evaluationary-algorithms---ea](#Evaluationary Algorithms)
-    - [Performance-prediction---pd](#Performance Prediction)
+    - [Gradient-based Methods](#Gradient-based-Methods---G)
+    - [Evaluationary Algorithms](#Evaluationary-Algorithms---EA)
+    - [Performance-Prediction](#Performance Prediction---PD)
     - [Others](#Others)
-    - [High-citation-papers](#High Citation Papers (> 100 citations))
+    - [High Citation Papers (> 100 citations)](#High-Citation-Papers)
   - [Systems](#Systems)
 
 *Data from [Bing](https://cn.bing.com/academic/)*
