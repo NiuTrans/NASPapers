@@ -4,7 +4,7 @@
     - [Reinforcement Learning Methods](#Reinforcement-Learning-Methods---RL)
     - [Gradient-based Methods](#Gradient-based-Methods---G)
     - [Evaluationary Algorithms](#Evaluationary-Algorithms---EA)
-    - [Performance-Prediction](#Performance Prediction---PD)
+    - [Performance Prediction](#Performance-Prediction---PD)
     - [Others](#Others)
     - [High Citation Papers (> 100 citations)](#High-Citation-Papers)
   - [Systems](#Systems)
