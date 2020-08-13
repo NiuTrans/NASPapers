@@ -1,12 +1,12 @@
 - [Neural Architecture Search](#NAS)
-  - [Paper](#Paper)
-    - [Survey](#Survey)
-    - [Reinforcement Learning](#Reinforcement Learning)
-    - [Gradient-based](#Gradient-based)
-    - [Evaluationary Algorithm](#Evaluationary Algorithm)
-    - [Performance Prediction](#Performance Prediction)
+  - [Paper](#The Paper List)
+    - [Surveys](#Surveys)
+    - [Reinforcement-learning---rl](#Reinforcement Learning)
+    - [Gradient-based-methods---g](#Gradient-based Methods)
+    - [Evaluationary-algorithms---ea](#Evaluationary Algorithms)
+    - [Performance-prediction---pd](#Performance Prediction)
     - [Others](#Others)
-    - [High citation (more than 100 citations)](#High citation (more than 100 citations))
+    - [High-citation-papers](#High Citation Papers (> 100 citations))
   - [System](#System)
 
 *Data from [Bing](https://cn.bing.com/academic/)*
@@ -17,7 +17,7 @@
 
 ## Paper List
 
-### Survey
+### Surveys
 | Title                                    | Venue |     Type     |                   Code                   | Year |
 | :--------------------------------------- | :---: | :----------: | :--------------------------------------: | :--: |
 | [**Neural architecture search: A survey**](http://www.jmlr.org/papers/volume20/18-598/18-598.pdf) | JMLR  |    Survey    |                    -                     | 2018 |
@@ -29,7 +29,7 @@
 
 
 
-### Reinforcement Learning (RL)
+### Reinforcement Learning - RL
 | Title                                    |  Venue  |   Type    |                   Code                   | Year |
 | :--------------------------------------- | :-----: | :-------: | :--------------------------------------: | :--: |
 | [**Neural Architecture Search with Reinforcement Learning**](https://arxiv.org/abs/1611.01578) |  ICLR   |    RL     |                    -                     | 2017 |
@@ -54,7 +54,7 @@
 
 
 
-### Gradient-based (G)
+### Gradient-based Methods - G
 | Title                                    |  Venue  | Type |                   Code                   | Year |
 | :--------------------------------------- | :-----: | :--: | :--------------------------------------: | :--: |
 | [**DARTS: Differentiable Architecture Search**](https://arxiv.org/abs/1806.09055) |  ICLR   |  G   | [github](https://github.com/quark0/darts) | 2018 |
@@ -95,7 +95,7 @@
 
 
 
-### Evaluationary Algorithm (EA)
+### Evaluationary Algorithms - EA
 | Title                                    | Venue | Type  |                   Code                   | Year |
 | :--------------------------------------- | :---: | :---: | :--------------------------------------: | :--: |
 | [**Hierarchical Representations for Efficient Architecture Search**](https://openreview.net/forum?id=BJQRKzbA-) | ICLR  |  EA   |                    -                     | 2018 |
@@ -110,7 +110,7 @@
 
 
 
-### Performance Prediction (PD)
+### Performance Prediction - PD
 | Title                                    | Venue  | Type  |                   Code                   | Year |
 | :--------------------------------------- | :----: | :---: | :--------------------------------------: | :--: |
 | [Speeding up Automatic Hyperparameter Optimization of Deep Neural Networksby Extrapolation of Learning Curves](http://ml.informatik.uni-freiburg.de/papers/15-IJCAI-Extrapolation_of_Learning_Curves.pdf) | IJCAI  |  PD   | [github](https://github.com/automl/pylearningcurvepredictor) | 2015 |
@@ -147,7 +147,7 @@
 
 
 
-### High citation (more than 100 citations)
+### High Citation Papers
 | Title                                    |  Venue  |  Type  |                   Code                   | Year | Citations |
 | :--------------------------------------- | :-----: | :----: | :--------------------------------------: | :--: | :-------: |
 | [Learning Transferable Architectures for Scalable Image Recognition](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zoph_Learning_Transferable_Architectures_CVPR_2018_paper.pdf) |  CVPR   |   RL   | [github](https://github.com/tensorflow/models/tree/master/research/slim/nets/nasnet) | 2018 |  1155+41  |
