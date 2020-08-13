@@ -1,7 +1,7 @@
 - [Neural Architecture Search](#NAS)
   - [Paper](#The Paper List)
     - [Surveys](#Surveys)
-    - [Reinforcement Learning](#Reinforcement-Learning---RL)
+    - [Reinforcement Learning Methods](#Reinforcement Learning Methods (RL))
     - [Gradient-based-methods---g](#Gradient-based Methods)
     - [Evaluationary-algorithms---ea](#Evaluationary Algorithms)
     - [Performance-prediction---pd](#Performance Prediction)
@@ -29,7 +29,7 @@
 
 
 
-### Reinforcement Learning - RL
+### Reinforcement Learning Methods (RL)
 | Title                                    |  Venue  |   Type    |                   Code                   | Year |
 | :--------------------------------------- | :-----: | :-------: | :--------------------------------------: | :--: |
 | [**Neural Architecture Search with Reinforcement Learning**](https://arxiv.org/abs/1611.01578) |  ICLR   |    RL     |                    -                     | 2017 |
