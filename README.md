@@ -1,6 +1,6 @@
 # A Paper List of Neural Architecture Search
 
-In this document, we list the papers published in recent years on Neural Architecture Search (NAS). We categorize these papers into different topics and highlight popular ones. Moreover, we collect the code implementations of these papers and present them on the list.
+In this document, we list the papers published from 2017 to August 2020 on Neural Architecture Search (NAS). We categorize these papers into different topics and highlight popular ones. Moreover, we collect the code implementations of these papers and present them on the list.
 
 ## Categorization
 
@@ -20,7 +20,7 @@ The categorization of NAS is as follows:
   - [Team Members](#team-members)
 
 *Data from [Google Scholar](https://scholar.google.com/)*  
-*Updated on September 12th*  
+*Cited number updated on September 12th*  
 *Italic in code links indicates these codes are not written by the authors of the paper. (like [GitHub]())*  
 *Bold in titles means these papers are widely cited. Here we follow the standards below to judge its popularity. Only papers meeting the following conditions will be marked in bold.*  
 
