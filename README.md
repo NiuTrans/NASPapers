@@ -15,6 +15,9 @@ The categorization of NAS is as follows:
     - [Evolutionary Algorithms - EA](#evolutionary-algorithms---ea)
     - [Performance Prediction - PD](#performance-prediction---pd)
     - [Others - O](#others---o)
+    - [Random Search](#random-search)
+    - [Bayesian Optimization](#bayesian-optimization)
+    - [Search Space](#search-space)
     - [High Citation Papers](#high-citation-papers)
   - [Systems](#systems)
   - [Team Members](#team-members)
@@ -237,6 +240,14 @@ The categorization of NAS is as follows:
 | [**NAS evaluation is frustratingly hard**](https://openreview.net/forum?id=HygrdpVKvr) |   ICLR    | O/S | [github](https://github.com/antoyang/NAS-Benchmark) | 2020 |
 | [Towards Fast Adaptation of Neural Architectures with Meta Learning](https://openreview.net/forum?id=r1eowANFvr) |   ICLR    |    O     | [github](https://github.com/dongzelian/T-NAS) | 2020 |
 | [How to Own the NAS in Your Spare Time](https://openreview.net/forum?id=S1erpeBFPB) |   ICLR    |    O     | [github](https://github.com/Sanghyun-Hong/How-to-0wn-NAS-in-Your-Spare-Time) | 2020 |
+
+### Random Search
+
+
+### Bayesian Optimization
+
+
+### Search Space
 
 
 
