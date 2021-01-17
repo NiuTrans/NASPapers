@@ -5,6 +5,7 @@ In this document, we list the papers published from 2017 to August 2020 on Neura
 ## Outline
 
 - [A Paper List of Neural Architecture Search](#a-paper-list-of-neural-architecture-search)
+  - [Outline](#outline)
   - [A Short List](#a-short-list)
   - [A Long List](#a-long-list)
     - [Surveys - S](#surveys---s)
@@ -39,7 +40,7 @@ For a quick look at the field, here is a short list of must-read papers
 | :--------------------------------------- | :---: | :----------: | :--------------------------------------: | :--: |
 | [Neural architecture search: A survey](http://jmlr.org/papers/v20/18-598.html) | JMLR  |    S    |                    -                     | 2018 |
 | [A Survey on Neural Architecture Search](https://arxiv.org/abs/1905.01392) |   -   |    S    |                    -                     | 2019 |
-| [Reinforcement Learning for Neural Architecture Search: A Review](https://www.sciencedirect.com/science/article/abs/pii/S0262885619300885) |  SCI  |  RL/S   |                    -                     | 2019 |
+| [Reinforcement Learning for Neural Architecture Search: A Review](https://www.sciencedirect.com/science/article/abs/pii/S0262885619300885) |  IVC  |  RL/S   |                    -                     | 2019 |
 | [A Comprehensive Survey of Neural Architecture Search: Challenges and Solutions](https://arxiv.org/abs/2006.02903) |   -   |    S    |                    -                     | 2020 |
 | [Evaluating The Search Phase of Neural Architecture Search](https://openreview.net/forum?id=H1loF2NFwr) | ICLR  | O/S | [github](https://github.com/kcyu2014/eval-nas) | 2020 |
 | [**NAS evaluation is frustratingly hard**](https://openreview.net/forum?id=HygrdpVKvr) | ICLR  | O/S | [github](https://github.com/antoyang/NAS-Benchmark) | 2020 |
@@ -65,7 +66,7 @@ For a quick look at the field, here is a short list of must-read papers
 | [GitGraph - from Computational Subgraphs to Smaller Architecture Search Spaces](https://openreview.net/forum?id=rkiO1_1Pz) |  ICLR  |    RL    | - | 2018 |
 | [UNAS: Differentiable Architecture Search Meets Reinforcement Learning](https://ieeexplore.ieee.org/document/9156297/) |  CVPR  |    G/RL    | - | 2018 |
 | [Fast Neural Architecture Search of Compact Semantic Segmentation Models via Auxiliary Cells](https://ieeexplore.ieee.org/document/8953530/) |  CVPR   |    RL     | [github](https://github.com/DrSleep/nas-segm-pytorch) | 2019 |
-| [Reinforcement Learning for Neural Architecture Search: A Review](https://www.sciencedirect.com/science/article/abs/pii/S0262885619300885) |   SCI   | RL/S |                    -                     | 2019 |
+| [Reinforcement Learning for Neural Architecture Search: A Review](https://www.sciencedirect.com/science/article/abs/pii/S0262885619300885) |   IVC   | RL/S |                    -                     | 2019 |
 | [Can Weight Sharing Outperform Random Architecture Search? An Investigation With TuNAS](https://ieeexplore.ieee.org/document/9157751/) |  CVPR   |    RL     |                    -                     | 2019 |
 | [Continual and Multi-Task Architecture Search](https://www.aclweb.org/anthology/P19-1185/) |   ACL   |    RL     | [github](https://www.aclweb.org/anthology/P19-1185/) | 2019 |
 | [AutoGAN: Neural Architecture Search for Generative Adversarial Networks](https://openaccess.thecvf.com/content_ICCV_2019/html/Gong_AutoGAN_Neural_Architecture_Search_for_Generative_Adversarial_Networks_ICCV_2019_paper.html) |  ICCV   |    RL     | [github](https://github.com/TAMU-VITA/AutoGAN) | 2019 |
