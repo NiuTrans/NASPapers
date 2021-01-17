@@ -5,8 +5,8 @@ In this document, we list the papers published from 2017 to August 2020 on Neura
 ## Outline
 
 - [A Paper List of Neural Architecture Search](#a-paper-list-of-neural-architecture-search)
-  - [Categorization](#categorization)
-  - [The Paper List](#the-paper-list)
+  - [A Short List](#a-short-list)
+  - [A Full List](#a-full-list)
     - [Surveys - S](#surveys---s)
     - [Reinforcement Learning Methods - RL](#reinforcement-learning-methods---rl)
     - [Gradient-based Methods - G](#gradient-based-methods---g)
@@ -20,8 +20,7 @@ In this document, we list the papers published from 2017 to August 2020 on Neura
   - [Systems](#systems)
   - [Team Members](#team-members)
 
-*Data from [Google Scholar](https://scholar.google.com/)*  
-*Cited number updated on September 12th*  
+*Data was from [Google Scholar](https://scholar.google.com/), and was updated on September 12th*  
 *Italic in code links indicates these codes are not written by the authors of the paper. (like [GitHub]())*  
 *Bold in titles means these papers are widely cited. Here we follow the standards below to judge its popularity. Only papers meeting the following conditions will be marked in bold.*  
 
@@ -29,9 +28,11 @@ In this document, we list the papers published from 2017 to August 2020 on Neura
 + *Papers published in 2019 are cited by more than or equal to 100 papers.* 
 + *Papers published before 2019 are cited by more than or equal to 500 papers.* 
 
+## A Short List
 
+For a quick look at the field, here is a short list of must-read papers
 
-## The Paper List
+## A Full List
 
 ### Surveys - S
 | Title                                    | Venue |     Type     |                   Code                   | Year |
