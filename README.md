@@ -1,6 +1,6 @@
 # A Paper List of Neural Architecture Search
 
-In this document, we list the papers published from 2017 to August 2020 on Neural Architecture Search (NAS). We categorize these papers into popular topics. We also find the code for some of the papers (if have).
+In this document, we list the papers published from 2017 to August 2020 on Neural Architecture Search (NAS). We categorize these papers into popular topics. We also find the code for some of the papers (if there are any).
 
 ## Outline
 
