@@ -1,0 +1,11 @@
+# Title
+EcoNAS: Finding Proxies for Economical Neural Architecture Search
+
+## Author
+Dongzhan Zhou,, Xinchi Zhou, Wenwei Zhang, Chen Change Loy, Shuai Yi, Xuesen Zhang, Wanli Ouyang
+
+## Abstract
+Neural Architecture Search (NAS) achieves significant progress in many computer vision tasks. While many methods are proposed to improve the efficiency of NAS, the search progress is still laborious because training and evaluating plausible architectures over large search space is time-consuming. Assessing network candidates under a proxy (i.e., computationally reduced setting) thus becomes inevitable. In this paper, we observe that most existing proxies exhibit different behaviors in maintaining the rank consistency among network candidates. In particular, some proxies can be more reliable - the rank of candidates does not differ much comparing their reduced setting performance and final performance. In this paper, we systematically investigate some widely adopted reduction factors and report our observations. Inspired by these observations, we present a reliable proxy and further formulate a hierarchical proxy strategy that spends more computations on candidate networks that are potentially more accurate, while discards unpromising ones in early stage with a fast proxy. This leads to an economical evolutionary-based NAS (EcoNAS), which achieves an impressive 400×search time reduction in comparison to the evolutionary-based state of the art [19] (8 v.s. 3150 GPU days). Some new proxies led by our observations can also be applied to accelerate other NAS methods while still able to discover good candidate networks with performance matching those found by previous proxy strategies. Codes and models will be released to facilitate future research.
+
+## Bib
+@INPROCEEDINGS{9157571,  author={D. {Zhou} and X. {Zhou} and W. {Zhang} and C. C. {Loy} and S. {Yi} and X. {Zhang} and W. {Ouyang}},  booktitle={2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},   title={EcoNAS: Finding Proxies for Economical Neural Architecture Search},   year={2020},  volume={},  number={},  pages={11393-11401},  doi={10.1109/CVPR42600.2020.01141}}
