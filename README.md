@@ -8,16 +8,18 @@ In this document, we list the papers published from 2017 to August 2020 on Neura
   - [Outline](#outline)
   - [A Short List](#a-short-list)
   - [A Long List](#a-long-list)
-    - [Surveys - S](#surveys---s)
-    - [Reinforcement Learning Methods - RL](#reinforcement-learning-methods---rl)
-    - [Gradient-based Methods - G](#gradient-based-methods---g)
-    - [Evolutionary Algorithms - EA](#evolutionary-algorithms---ea)
-    - [Performance Prediction - PD](#performance-prediction---pd)
-    - [Others - O](#others---o)
-    - [Bayesian Optimization - BO](#bayesian-optimization---bo)
-    - [Search Space - SP](#search-space---sp)
-    - [High Citation Papers](#high-citation-papers)
-    - [Systems](#systems)
+    - [1 Surveys - S](#1-surveys---s)
+    - [2 Method](#2-method)
+      - [2.1 Search Space - SP](#21-search-space---sp)
+      - [2.2 Search Strategy](#22-search-strategy)
+        - [2.2.1 Reinforcement Learning Methods - RL](#221-reinforcement-learning-methods---rl)
+        - [2.2.2 Gradient-based Methods - G](#222-gradient-based-methods---g)
+        - [2.2.3 Evolutionary Algorithms - EA](#223-evolutionary-algorithms---ea)
+        - [2.2.4 Bayesian Optimization - BO](#224-bayesian-optimization---bo)
+      - [2.3 Performance Prediction - PD](#23-performance-prediction---pd)
+      - [2.4 Others - O](#24-others---o)
+    - [3 High Citation Papers](#3-high-citation-papers)
+    - [4 Systems](#4-systems)
   - [Team Members](#team-members)
 
 * Code
@@ -26,7 +28,7 @@ In this document, we list the papers published from 2017 to August 2020 on Neura
 
 * Task
   > *We summarize the tasks of these papers according to the experimental part.*
-  > *The abbreviations have the following meanings.(In alphabetical order)*
+  > *The abbreviations have the following meanings.(in alphabetical order)*
   > + Classification
   >   + object classification
   >   + scene classification
@@ -42,12 +44,12 @@ In this document, we list the papers published from 2017 to August 2020 on Neura
   > + LM(Language Model)
   > + MT(Machine Translation)
   > + NER(Named Entity Recognition)
-  > + OD(Object Detection)
   > + O(Other)
-  > + SS(Semantic Segmentation)
+  > + OD(Object Detection)
   > + Segmentation
   >   + instance segmentation
   >   + OAR segmentation
+  > + SS(Semantic Segmentation)
   > + VU(Video Understanding)
 
 * Info
@@ -65,7 +67,7 @@ For a quick look at the field, here is a short list of must-read papers.
 
 ## A Long List
 
-### Surveys - S
+### 1 Surveys - S
 | Title                                    |  Venue  |                   Code                   | Year | Info |
 | :--------------------------------------- | :-----: | :--------------------------------------: | :--: | :--: |
 | [Neural architecture search: A survey](http://jmlr.org/papers/v20/18-598.html) | JMLR  |                    -                     | 2018 |[details](info/Elsken2019Neural.md) |
@@ -76,8 +78,25 @@ For a quick look at the field, here is a short list of must-read papers.
 | [**NAS evaluation is frustratingly hard**](https://openreview.net/forum?id=HygrdpVKvr) | ICLR| [github](https://github.com/antoyang/NAS-Benchmark) | 2020 | [details](info/Yang2020NAS.md)|
 
 
+### 2 Method
+#### 2.1 Search Space - SP
+| Title                                    |  Venue  | Task |                    Code                  | Year | Info |
+| :--------------------------------------- | :-----: | :--: | :--------------------------------------: | :--: | :--: |
+| [GitGraph - from Computational Subgraphs to Smaller Architecture Search Spaces](https://openreview.net/forum?id=rkiO1_1Pz) |  ICLR  |  - | - | 2018 | [details](info/Bennani-Smires2018GitGraph.md) |
+| [Searching for efficient multi-scale architectures for dense image prediction](http://papers.nips.cc/paper/8087-searching-for-efficient-multi-scale-architectures-for-dense-image-prediction) |  NeurIPS  | IR|       -          | 2018 |[details](info/Chen2018Searching.md) |
+| [Towards modular and programmable architecture search](https://papers.nips.cc/paper/9524-towards-modular-and-programmable-architecture-search.html) |  NeurIPS  |   - | [github](https://github.com/negrinho/deep_architect) | 2019 | [details](info/Negrinho2019Towards.md) |
+| [MFAS: Multimodal Fusion Architecture Search](https://ieeexplore.ieee.org/document/8954353) | CVPR  |  VU   |                    -                     | 2019 | [details](./info/Perez-Rua2019MFAS.md) |
+| [NAS-Bench-101: Towards Reproducible Neural Architecture Search](http://proceedings.mlr.press/v97/ying19a.html) |   ICML    |    IC     | [github](https://github.com/google-research/nasbench) | 2019 | [details](info/Ying2019NAS.md) |
+| [Auto-ReID: Searching for a Part-Aware ConvNet for Person Re-Identification](https://openaccess.thecvf.com/content_ICCV_2019/html/Quan_Auto-ReID_Searching_for_a_Part-Aware_ConvNet_for_Person_Re-Identification_ICCV_2019_paper.html) |  ICCV   |     IR    | - | 2019 | [details](info/Quan2019Auto-ReID.md) |
+| [**Exploring Randomly Wired Neural Networks for Image Recognition**](https://openaccess.thecvf.com/content_ICCV_2019/html/Xie_Exploring_Randomly_Wired_Neural_Networks_for_Image_Recognition_ICCV_2019_paper.html) |  ICCV   |     IC OD    | [*github*](https://github.com/seungwonpark/RandWireNN) | 2019 | [details](info/Xie2019Exploring.md) |
+| [**NAS-Bench-1Shot1: Benchmarking and Dissecting One-shot Neural Architecture Search**](https://openreview.net/forum?id=SJx9ngStPH) |  ICLR   |     -    | [github](https://github.com/automl/nasbench-1shot1) | 2020 | [details](./info/Zela2020NAS.md) |
+| [**NAS-BENCH-201: Extending the Scope of Reproducible Neural Architecture Search**](https://openreview.net/forum?id=HJxyZkBKDr) |   ICLR    |    IC     | [github](https://github.com/D-X-Y/AutoDL-Projects) | 2020 | [details](./info/Dong2020NAS.md) |
+| [AutoShrink: A Topology-aware NAS for Discovering Efficient Neural Architecture](https://aaai.org/ojs/index.php/AAAI/article/view/6163) |  AAAI   |     IC LM    | [github](https://github.com/lordzth666/AutoShrink) | 2020 | [details](./info/Zhang2020AutoShrink.md) |
+| [TextNAS: A Neural Architecture Search Space tailored for Text Representation](https://aaai.org/ojs/index.php/AAAI/article/view/6462) |   AAAI  |     O    | [github](https://github.com/microsoft/nni/tree/master/examples/nas/textnas) | 2020 | [details](./info/Wang2020TextNAS.md) |
+| [Angle-based Search Space Shrinking for Neural Architecture Search](https://arxiv.org/abs/2004.13431) |  ECCV   |     IC    | - | 2020 | [details](info/Hu2020Angle-based.md) |
 
-### Reinforcement Learning Methods - RL
+#### 2.2 Search Strategy
+##### 2.2.1 Reinforcement Learning Methods - RL
 | Title                                    |  Venue  | Task |                    Code                  | Year | Info |
 | :--------------------------------------- | :-----: | :--: | :--------------------------------------: | :--: | :--: |
 | [**Neural Architecture Search with Reinforcement Learning**](https://openreview.net/forum?id=r1Ue8Hcxg) |  ICLR   |   IC LM  |                    -                     | 2017 |[details](info/Zoph2017Neural.md) |  
@@ -114,7 +133,7 @@ For a quick look at the field, here is a short list of must-read papers.
 
 
 
-### Gradient-based Methods - G
+##### 2.2.2 Gradient-based Methods - G
 | Title                                    |  Venue  | Task |                   Code                   | Year | Info |
 | :--------------------------------------- | :-----: | :--: | :--------------------------------------: | :--: | :--: |
 | [**DARTS: Differentiable Architecture Search**](https://openreview.net/forum?id=S1eYHoC5FX) |  ICLR  | IC  LM| [github](https://github.com/quark0/darts) | 2018 |[details](info/Liu2018DARTS.md) |
@@ -183,7 +202,7 @@ For a quick look at the field, here is a short list of must-read papers.
 
 
 
-### Evolutionary Algorithms - EA
+##### 2.2.3 Evolutionary Algorithms - EA
 | Title                                    | Venue | Task  |                   Code                   | Year | Info |
 | :--------------------------------------- | :---: | :---: | :--------------------------------------: | :--: | :--: |
 | [**Large-Scale Evolution of Image Classifiers**](http://proceedings.mlr.press/v70/real17a.html) | ICML  |  IC   |                    -                     | 2017 | [details](./info/Real2017Large.md) |
@@ -211,7 +230,18 @@ For a quick look at the field, here is a short list of must-read papers.
 
 
 
-### Performance Prediction - PD
+##### 2.2.4 Bayesian Optimization - BO
+| Title                                    |  Venue  | Task |                    Code                  | Year | Info |
+| :--------------------------------------- | :-----: | :--: | :--------------------------------------: | :--: | :--: |
+| [Neural Architecture Search with Bayesian Optimisation and Optimal Transport](https://papers.nips.cc/paper/7472-neural-architecture-search-with-bayesian-optimisation-and-optimal-transport.html) |  NeurIPS  | IC | [github](https://github.com/kirthevasank/nasbot) | 2018 | [details](info/Kandasamy2018Neural.md) |
+| [Learnable Embedding Space for Efficient Neural Architecture Compression](https://openreview.net/forum?id=S1xLN3C9YX) |  ICLR  |  IC   | [github](https://github.com/Friedrich1006/ESNAC) | 2019 | [details](./info/Cao2018Learnable.md) |
+| [Posterior-Guided Neural Architecture Search](https://aaai.org/ojs/index.php/AAAI/article/view/6181) |  AAAI  |    IC    | [github](https://github.com/scenarios/PGNAS) | 2020 | [details](./info/Zhou2020Posterior.md) |
+
+
+
+
+
+#### 2.3 Performance Prediction - PD
 | Title                                    | Venue  | Task  |                   Code                   | Year | Info |
 | :--------------------------------------- | :----: | :---: | :--------------------------------------: | :--: | :--: |
 | [Learning Curve Prediction with Bayesian Neural Networks](https://openreview.net/forum?id=S11KBYclx) |  ICLR  |  -   |                    -                     | 2017 | [details](./info/Klein2017Learning.md) |
@@ -230,7 +260,7 @@ For a quick look at the field, here is a short list of must-read papers.
 
 
 
-### Others - O
+#### 2.4 Others - O
 | Title                                    |  Venue  | Task |                    Code                  | Year | Info |
 | :--------------------------------------- | :-----: | :--: | :--------------------------------------: | :--: | :--: |
 | [Hyperparameter Optimization: A Spectral Approach](https://arxiv.org/abs/1706.00764) | NeurIPS-W |  IC|  [github](https://github.com/callowbird/Harmonica) | 2017 |[details](info/Hazan2017Hyperparameter.md) |
@@ -259,33 +289,8 @@ For a quick look at the field, here is a short list of must-read papers.
 
 
 
-### Bayesian Optimization - BO
-| Title                                    |  Venue  | Task |                    Code                  | Year | Info |
-| :--------------------------------------- | :-----: | :--: | :--------------------------------------: | :--: | :--: |
-| [Neural Architecture Search with Bayesian Optimisation and Optimal Transport](https://papers.nips.cc/paper/7472-neural-architecture-search-with-bayesian-optimisation-and-optimal-transport.html) |  NeurIPS  | IC | [github](https://github.com/kirthevasank/nasbot) | 2018 | [details](info/Kandasamy2018Neural.md) |
-| [Learnable Embedding Space for Efficient Neural Architecture Compression](https://openreview.net/forum?id=S1xLN3C9YX) |  ICLR  |  IC   | [github](https://github.com/Friedrich1006/ESNAC) | 2019 | [details](./info/Cao2018Learnable.md) |
-| [Posterior-Guided Neural Architecture Search](https://aaai.org/ojs/index.php/AAAI/article/view/6181) |  AAAI  |    IC    | [github](https://github.com/scenarios/PGNAS) | 2020 | [details](./info/Zhou2020Posterior.md) |
 
-
-
-### Search Space - SP
-| Title                                    |  Venue  | Task |                    Code                  | Year | Info |
-| :--------------------------------------- | :-----: | :--: | :--------------------------------------: | :--: | :--: |
-| [GitGraph - from Computational Subgraphs to Smaller Architecture Search Spaces](https://openreview.net/forum?id=rkiO1_1Pz) |  ICLR  |  - | - | 2018 | [details](info/Bennani-Smires2018GitGraph.md) |
-| [Searching for efficient multi-scale architectures for dense image prediction](http://papers.nips.cc/paper/8087-searching-for-efficient-multi-scale-architectures-for-dense-image-prediction) |  NeurIPS  | IR|       -          | 2018 |[details](info/Chen2018Searching.md) |
-| [Towards modular and programmable architecture search](https://papers.nips.cc/paper/9524-towards-modular-and-programmable-architecture-search.html) |  NeurIPS  |   - | [github](https://github.com/negrinho/deep_architect) | 2019 | [details](info/Negrinho2019Towards.md) |
-| [MFAS: Multimodal Fusion Architecture Search](https://ieeexplore.ieee.org/document/8954353) | CVPR  |  VU   |                    -                     | 2019 | [details](./info/Perez-Rua2019MFAS.md) |
-| [NAS-Bench-101: Towards Reproducible Neural Architecture Search](http://proceedings.mlr.press/v97/ying19a.html) |   ICML    |    IC     | [github](https://github.com/google-research/nasbench) | 2019 | [details](info/Ying2019NAS.md) |
-| [Auto-ReID: Searching for a Part-Aware ConvNet for Person Re-Identification](https://openaccess.thecvf.com/content_ICCV_2019/html/Quan_Auto-ReID_Searching_for_a_Part-Aware_ConvNet_for_Person_Re-Identification_ICCV_2019_paper.html) |  ICCV   |     IR    | - | 2019 | [details](info/Quan2019Auto-ReID.md) |
-| [**Exploring Randomly Wired Neural Networks for Image Recognition**](https://openaccess.thecvf.com/content_ICCV_2019/html/Xie_Exploring_Randomly_Wired_Neural_Networks_for_Image_Recognition_ICCV_2019_paper.html) |  ICCV   |     IC OD    | [*github*](https://github.com/seungwonpark/RandWireNN) | 2019 | [details](info/Xie2019Exploring.md) |
-| [**NAS-Bench-1Shot1: Benchmarking and Dissecting One-shot Neural Architecture Search**](https://openreview.net/forum?id=SJx9ngStPH) |  ICLR   |     -    | [github](https://github.com/automl/nasbench-1shot1) | 2020 | [details](./info/Zela2020NAS.md) |
-| [**NAS-BENCH-201: Extending the Scope of Reproducible Neural Architecture Search**](https://openreview.net/forum?id=HJxyZkBKDr) |   ICLR    |    IC     | [github](https://github.com/D-X-Y/AutoDL-Projects) | 2020 | [details](./info/Dong2020NAS.md) |
-| [AutoShrink: A Topology-aware NAS for Discovering Efficient Neural Architecture](https://aaai.org/ojs/index.php/AAAI/article/view/6163) |  AAAI   |     IC LM    | [github](https://github.com/lordzth666/AutoShrink) | 2020 | [details](./info/Zhang2020AutoShrink.md) |
-| [TextNAS: A Neural Architecture Search Space tailored for Text Representation](https://aaai.org/ojs/index.php/AAAI/article/view/6462) |   AAAI  |     O    | [github](https://github.com/microsoft/nni/tree/master/examples/nas/textnas) | 2020 | [details](./info/Wang2020TextNAS.md) |
-| [Angle-based Search Space Shrinking for Neural Architecture Search](https://arxiv.org/abs/2004.13431) |  ECCV   |     IC    | - | 2020 | [details](info/Hu2020Angle-based.md) |
-
-
-### High Citation Papers
+### 3 High Citation Papers
 | Title                                    |  Venue  |  Type  |                   Code                   | Year | Citations |
 | :--------------------------------------- | :-----: | :----: | :--------------------------------------: | :--: | :-------: |
 | [**Neural Architecture Search with Reinforcement Learning**](https://openreview.net/forum?id=r1Ue8Hcxg) |  ICLR   |    RL     |                    -                     | 2017 | 1876 |
@@ -316,8 +321,7 @@ For a quick look at the field, here is a short list of must-read papers.
 | [**AtomNAS: Fine-Grained End-to-End Neural Architecture Search**](https://openreview.net/forum?id=BylQSxHFwr) |  ICLR   |  G   | [github](https://github.com/meijieru/AtomNAS) | 2020 | 20 |
 
 
-
-### Systems
+### 4 Systems
 
 | Title                                    | Venue  |                   Code                   | Year |
 | :--------------------------------------- | :----: | :--------------------------------------: | :--: |
