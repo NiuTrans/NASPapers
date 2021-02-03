@@ -27,36 +27,36 @@ In this document, we list the papers published from 2017 to August 2020 on Neura
   > *Italic in code links indicates these codes are not written by the authors of the paper. (like [GitHub]())*  
 
 * Task
-  > *We summarize the tasks of these papers according to the experimental part.*
-  > *The abbreviations have the following meanings.(in alphabetical order)*
+  > *We summarize the tasks of these papers according to the experimentals described in them.*
+  > *For natational simplicity, we use short names of the tasks (in alphabetical order)*
   > + Classification
   >   + object classification
   >   + scene classification
   >   + point cloud classification 
   >   + node classification
-  > + IC(Image Classification)
-  > + IR(Image Recognition)
-  > + IRT(Image ResToration)
+  > + IC (Image Classification)
+  > + IR (Image Recognition)
+  > + IRT (Image ResToration)
   >   + image inpainting
   >   + image denoising 
   >   + image de-raining
   >   + image restoration
-  > + LM(Language Model)
-  > + MT(Machine Translation)
-  > + NER(Named Entity Recognition)
-  > + O(Other)
-  > + OD(Object Detection)
+  > + LM (Language Model)
+  > + MT (Machine Translation)
+  > + NER (Named Entity Recognition)
+  > + O (Other)
+  > + OD (Object Detection)
   > + Segmentation
   >   + instance segmentation
   >   + OAR segmentation
-  > + SS(Semantic Segmentation)
-  > + VU(Video Understanding)
+  > + SS (Semantic Segmentation)
+  > + VU (Video Understanding)
 
 * Info
   > *Info is an extension of the paper introduction, including Title, Author, Abstract and Bib.*
 
 * High Citation Papers
-  > *Data was from [Google Scholar](https://scholar.google.com/), and was updated on September 12th. Bold in titles means these papers are widely cited. Here we follow the standards below to judge its popularity. Only papers meeting the following conditions will be marked in bold.*  
+  > *Data was from [Google Scholar](https://scholar.google.com/), and was updated on September 12th. Bold in titles means that these papers are highly cited. See below for how we determined if a paper is highly cited. We know that there is no standards for this. We just have some simple rules.*  
   > + *Papers published in 2020 are cited by more than or equal to 20 papers.*
   > + *Papers published in 2019 are cited by more than or equal to 100 papers.*
   > + *Papers published before 2019 are cited by more than or equal to 500 papers.*
