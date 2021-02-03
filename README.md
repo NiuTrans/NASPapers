@@ -9,7 +9,7 @@ In this document, we list the papers published from 2017 to August 2020 on Neura
   - [A Short List](#a-short-list)
   - [A Long List](#a-long-list)
     - [1 Surveys - S](#1-surveys---s)
-    - [2 Method](#2-method)
+    - [2 Methods](#2-methods)
       - [2.1 Search Space - SP](#21-search-space---sp)
       - [2.2 Search Strategy](#22-search-strategy)
         - [2.2.1 Reinforcement Learning Methods - RL](#221-reinforcement-learning-methods---rl)
@@ -78,7 +78,7 @@ For a quick look at the field, here is a short list of must-read papers.
 | [**NAS evaluation is frustratingly hard**](https://openreview.net/forum?id=HygrdpVKvr) | ICLR| [github](https://github.com/antoyang/NAS-Benchmark) | 2020 | [details](info/Yang2020NAS.md)|
 
 
-### 2 Method
+### 2 Methods
 #### 2.1 Search Space - SP
 | Title                                    |  Venue  | Task |                    Code                  | Year | Info |
 | :--------------------------------------- | :-----: | :--: | :--------------------------------------: | :--: | :--: |
