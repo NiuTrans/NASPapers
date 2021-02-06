@@ -124,6 +124,8 @@ For a quick look at the field, here is a short list of must-read papers.
 | [AutoShrink: A Topology-aware NAS for Discovering Efficient Neural Architecture](https://aaai.org/ojs/index.php/AAAI/article/view/6163) |  AAAI   |     IC LM    | [github](https://github.com/lordzth666/AutoShrink) | 2020 | [details](./info/Zhang2020AutoShrink.md) |
 | [TextNAS: A Neural Architecture Search Space tailored for Text Representation](https://aaai.org/ojs/index.php/AAAI/article/view/6462) |   AAAI  |     O    | [github](https://github.com/microsoft/nni/tree/master/examples/nas/textnas) | 2020 | [details](./info/Wang2020TextNAS.md) |
 | [Angle-based Search Space Shrinking for Neural Architecture Search](https://arxiv.org/abs/2004.13431) |  ECCV   |     IC    | - | 2020 | [details](info/Hu2020Angle-based.md) |
+| [NAS-Bench-ASR: Reproducible Neural Architecture Search for Speech Recognition](https://openreview.net/forum?id=CU0APx9LMaL) |   ICLR  |     Automatic Speech Recognition    | - | 2021 | [details](info/Mehrotra2021NAS-Bench-ASR.md) |
+| [HW-NAS-Bench: Hardware-Aware Neural Architecture Search Benchmark](https://openreview.net/forum?id=_0kaDkv3dVf) |   ICLR  |     IC    | [github](https://github.com/RICE-EIC/HW-NAS-Bench) | 2021 | [details](info/Li2021HW-NAS-Bench.md) |
 
 #### 2.2 Search Strategy
 ##### 2.2.1 Reinforcement Learning Methods - RL
@@ -160,6 +162,7 @@ For a quick look at the field, here is a short list of must-read papers.
 | [Graph Neural Architecture Search](https://www.ijcai.org/Proceedings/2020/0195) |  IJCAI  |  O | [github](https://github.com/GraphNAS/GraphNAS) | 2020 |[details](info/Gao2020Graph.md) |
 | [InstaNAS: Instance-aware Neural Architecture Search](https://aaai.org/ojs/index.php/AAAI/article/view/5764) |  AAAI  | IC| [github](https://github.com/AnjieCheng/InstaNAS) | 2020 | [details](info/Cheng2020InstaNAS.md) |
 | [Towards Oracle Knowledge Distillation with Neural Architecture Search](https://aaai.org/ojs/index.php/AAAI/article/view/5866) |  AAAI  |IC|  - | 2020 |[details](info/Kang2020Towards.md) |
+| [Sample-Efficient Automated Deep Reinforcement Learning](https://openreview.net/forum?id=hSjxQ3B7GWq) |   ICLR  |     -    | - | 2021 | [details](info/Franke2021Sample.md) |
 
 
 
@@ -229,6 +232,9 @@ For a quick look at the field, here is a short list of must-read papers.
 | [Binarized Neural Architecture Search](https://aaai.org/ojs/index.php/AAAI/article/view/6624) |  AAAI  |    IC    | - | 2020 | [details](./info/Chen2020Binarized.md) |
 | [Neural Graph Embedding for Neural Architecture Search](https://aaai.org/ojs/index.php/AAAI/article/view/5903) |  AAAI  |    IC SS    | - | 2020 | [details](./info/Li2020NeuralG.md) |
 | [Efficient Neural Architecture Search via Proximal Iterations](https://aaai.org/ojs/index.php/AAAI/article/view/6143) |  AAAI  |    IC LM    | [github](https://github.com/xujinfan/NASP-codes) | 2020 | [details](./info/Yao2020Efficient.md) |
+| [Geometry-Aware Gradient Algorithms for Neural Architecture Search](https://openreview.net/forum?id=MuSYkd1hxRP) |   ICLR  |     IC    | [github](https://github.com/liamcli/gaea_release)] | 2021 | [details](info/Li2020Geometry.md) |
+| [Rethinking Architecture Selection in Differentiable NAS](https://openreview.net/forum?id=PKubaeJkw3) |   ICLR  |     IC    | [github]() | 2021 | [details](info/Wang2021Rethinking.md) |
+| [DrNAS: Dirichlet Neural Architecture Search](https://openreview.net/forum?id=9FWas6YbmB3) |   ICLR  |     IC    | [github](https://github.com/xiangning-chen/DrNAS) | 2021 | [details](info/Chen2021DrNAS.md) |
 
 
 
@@ -266,7 +272,7 @@ For a quick look at the field, here is a short list of must-read papers.
 | [Neural Architecture Search with Bayesian Optimisation and Optimal Transport](https://papers.nips.cc/paper/7472-neural-architecture-search-with-bayesian-optimisation-and-optimal-transport.html) |  NeurIPS  | IC | [github](https://github.com/kirthevasank/nasbot) | 2018 | [details](info/Kandasamy2018Neural.md) |
 | [Learnable Embedding Space for Efficient Neural Architecture Compression](https://openreview.net/forum?id=S1xLN3C9YX) |  ICLR  |  IC   | [github](https://github.com/Friedrich1006/ESNAC) | 2019 | [details](./info/Cao2018Learnable.md) |
 | [Posterior-Guided Neural Architecture Search](https://aaai.org/ojs/index.php/AAAI/article/view/6181) |  AAAI  |    IC    | [github](https://github.com/scenarios/PGNAS) | 2020 | [details](./info/Zhou2020Posterior.md) |
-
+| [Interpretable Neural Architecture Search via Bayesian Optimisation with Weisfeiler-Lehman Kernels](https://openreview.net/forum?id=j9Rv7qdXjd) |   ICLR  |     IC    | [github]() | 2021 | [details](info/Wan2021Interpretable.md) |
 
 
 
@@ -316,7 +322,9 @@ For a quick look at the field, here is a short list of must-read papers.
 | [Evaluating The Search Phase of Neural Architecture Search](https://openreview.net/forum?id=H1loF2NFwr) |   ICLR    | LM IC | [github](https://github.com/kcyu2014/eval-nas) | 2020 | [details](./info/Yu2020Evaluation.md) |
 | [NAS evaluation is frustratingly hard](https://openreview.net/forum?id=HygrdpVKvr) |   ICLR    | IC | [github](https://github.com/antoyang/NAS-Benchmark) | 2020 | [details](./info/Yang2020NAS.md) |
 | [Towards Fast Adaptation of Neural Architectures with Meta Learning](https://openreview.net/forum?id=r1eowANFvr) |   ICLR    |    IC     | [github](https://github.com/dongzelian/T-NAS) | 2020 | [details](./info/Lian2020Towards.md) |
-
+| [Best Practices for Scientific Research on Neural Architecture Search](https://jmlr.org/papers/v21/20-056.html) |   JMLR  |     -    | - | 2020 | [details](info/Lindauer2020Best.md) |
+| [Neural Architecture Search on ImageNet in Four GPU Hours: A Theoretically Inspired Perspective](https://openreview.net/forum?id=Cnon5ezMHtu) |   ICLR  |     IC    | [github](https://github.com/VITA-Group/TENAS) | 2021 | [details](info/Chen2021Neural.md) |
+| [Rapid Neural Architecture Search by Learning to Generate Graphs from Datasets](https://openreview.net/forum?id=rkQuFUmUOg3) |   ICLR  |     IC    | - | 2021 | [details](info/Lee2021Rapid.md) |
 
 
 ### 3 Systems
