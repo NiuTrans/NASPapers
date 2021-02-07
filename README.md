@@ -24,7 +24,7 @@ In this document, we list the papers published from 2017 to August 2020 on Neura
 
 * Code
   > *We find the code for some of the papers (if there are any).*
-  > *Italic in code links indicates these codes are not written by the authors of the paper. (like [GitHub]())*  
+  > *Italic in code links indicates these codes are not written by the authors of the paper. (like [GitHub]())*
 
 * Task
   > *We summarize the tasks of these papers according to the experimentals described in them.*
@@ -32,13 +32,13 @@ In this document, we list the papers published from 2017 to August 2020 on Neura
   > + Classification
   >   + object classification
   >   + scene classification
-  >   + point cloud classification 
+  >   + point cloud classification
   >   + node classification
   > + IC (Image Classification)
   > + IR (Image Recognition)
   > + IRT (Image ResToration)
   >   + image inpainting
-  >   + image denoising 
+  >   + image denoising
   >   + image de-raining
   >   + image restoration
   > + LM (Language Model)
@@ -56,7 +56,7 @@ In this document, we list the papers published from 2017 to August 2020 on Neura
   > *Info is an extension of the paper introduction, including Title, Author, Abstract and Bib.*
 
 * High Citation Papers
-  > *Data was from [Google Scholar](https://scholar.google.com/), and was updated on September 12th. Bold in titles means that these papers are highly cited. See below for how we determined if a paper is highly cited. We know that there is no standards for this. We just have some simple rules.*  
+  > *Data was from [Google Scholar](https://scholar.google.com/), and was updated on September 12th. Bold in titles means that these papers are highly cited. See below for how we determined if a paper is highly cited. We know that there is no standards for this. We just have some simple rules.*
   > + *Papers published in 2020 are cited by more than or equal to 20 papers.*
   > + *Papers published in 2019 are cited by more than or equal to 100 papers.*
   > + *Papers published before 2019 are cited by more than or equal to 500 papers.*
@@ -128,6 +128,10 @@ For a quick look at the field, here is a short list of must-read papers.
 | [MnasFPN : Learning Latency-aware Pyramid Architecture for Object Detection on Mobile Devices](https://ieeexplore.ieee.org/abstract/document/9156863) |  CVPR   |     OD    | - | 2020 | [details](./info/Chen2020MnasFPN.md) |
 | [SP-NAS: Serial-to-Parallel Backbone Search for Object Detection](https://ieeexplore.ieee.org/abstract/document/9156649/) |  CVPR   |     OD    | - | 2020 | [details](./info/Jiang2020SP.md) |
 | [FENAS: Flexible and Expressive Neural Architecture Search](https://www.aclweb.org/anthology/2020.findings-emnlp.258/) |  EMNLP   |     LM O    | - | 2020 | [details](./info/Pasunuru2020FENAS.md) |
+| [ISTA-NAS: Efficient and Consistent Neural Architecture Search by Sparse Coding](https://proceedings.neurips.cc/paper/2020/hash/76cf99d3614e23eabab16fb27e944bf9-Abstract.html) |NeurIPS | IC | [github](https://github.com/iboing/ISTA-NAS) | 2020 | [details](info/Yang2020ISTA-NAS.md) |
+| [Neural Architecture Generator Optimization](https://proceedings.neurips.cc/paper/2020/hash/8c53d30ad023ce50140181f713059ddf-Abstract.html) | NeurIPS | IC IR | [github](https://github.com/huawei-noah/vega/) | 2020 | [details](info/Ru2020Neural.md) |
+| [CLEARER: Multi-Scale Neural Architecture Search for Image Restoration](https://proceedings.neurips.cc/paper/2020/hash/c6e81542b125c36346d9167691b8bd09-Abstract.html) | NeurIPS | IRT | [github](https://github.com/limit-scu) | 2020 | [details](info/Gou2020CLEARER.md) |
+| [RandAugment: Practical Automated Data Augmentation with a Reduced Search Space](https://proceedings.neurips.cc/paper/2020/hash/d85b63ef0ccb114d0a3bb7b7d808028f-Abstract.html) | NeurIPS| IC | [github](github.com/tensorflow/tpu/tree/master/models/official/efficientnet) | 2020 | [details](info/Cubuk2020RandAugment.md) |
 
 
 
@@ -135,8 +139,8 @@ For a quick look at the field, here is a short list of must-read papers.
 ##### 2.2.1 Reinforcement Learning Methods - RL
 | Title                                    |  Venue  | Task |                    Code                  | Year | Info |
 | :--------------------------------------- | :-----: | :--: | :--------------------------------------: | :--: | :--: |
-| [Neural Architecture Search with Reinforcement Learning](https://openreview.net/forum?id=r1Ue8Hcxg) |  ICLR   |   IC LM  |                    -                     | 2017 |[details](info/Zoph2017Neural.md) |  
-[Learning to Compose Domain-Specific Transformations for Data Augmentation](http://papers.nips.cc/paper/6916-learning-to-compose-domain-specific-transformations-for-data-augmentation) | NeurIPS | IC O |                       -                     | 2017 |[details](info/Ratner2017Learning.md) | 
+| [Neural Architecture Search with Reinforcement Learning](https://openreview.net/forum?id=r1Ue8Hcxg) |  ICLR   |   IC LM  |                    -                     | 2017 |[details](info/Zoph2017Neural.md) |
+[Learning to Compose Domain-Specific Transformations for Data Augmentation](http://papers.nips.cc/paper/6916-learning-to-compose-domain-specific-transformations-for-data-augmentation) | NeurIPS | IC O |                       -                     | 2017 |[details](info/Ratner2017Learning.md) |
 [N2N learning: Network to Network Compression via Policy Gradient Reinforcement Learning](https://openreview.net/forum?id=B1hcZZ-AW) |  ICLR   |- |     -                     | 2017 | [details](info/Ashok2017N2N.md) |
 | [Designing Neural Network Architectures using Reinforcement Learning](https://openreview.net/forum?id=S1c2cvqee) |  ICLR   |   IC    |   [github](https://github.com/bowenbaker/metaqnn) | 2017 |[details](info/Baker2017Designing.md) |
 | [Neural Optimizer Search with Reinforcement Learning](http://proceedings.mlr.press/v70/bello17a.html) |  ICML   |IC |                -                     | 2017 |[details](info/Bello2017Neural.md) |
@@ -273,7 +277,7 @@ For a quick look at the field, here is a short list of must-read papers.
 | [Neural Architecture Search with Bayesian Optimisation and Optimal Transport](https://papers.nips.cc/paper/7472-neural-architecture-search-with-bayesian-optimisation-and-optimal-transport.html) |  NeurIPS  | IC | [github](https://github.com/kirthevasank/nasbot) | 2018 | [details](info/Kandasamy2018Neural.md) |
 | [Learnable Embedding Space for Efficient Neural Architecture Compression](https://openreview.net/forum?id=S1xLN3C9YX) |  ICLR  |  IC   | [github](https://github.com/Friedrich1006/ESNAC) | 2019 | [details](./info/Cao2018Learnable.md) |
 | [Posterior-Guided Neural Architecture Search](https://aaai.org/ojs/index.php/AAAI/article/view/6181) |  AAAI  |    IC    | [github](https://github.com/scenarios/PGNAS) | 2020 | [details](./info/Zhou2020Posterior.md) |
-
+| [Bridging the Gap between Sample-based and One-shot Neural Architecture Search with BONAS](https://proceedings.neurips.cc/paper/2020/hash/13d4635deccc230c944e4ff6e03404b5-Abstract.html) | NeurIPS | IC |[github](https://github.com/pipilurj/BONAS)  | 2020 |[details](info/Shi2020Bridging.md) |
 
 
 
@@ -294,7 +298,7 @@ For a quick look at the field, here is a short list of must-read papers.
 | [Rethinking Performance Estimation in Neural Architecture Search](https://ieeexplore.ieee.org/document/9156290/) |  CVPR  |  IC   | [github](https://github.com/CVPR2020-ID1073/Rethinking-Performance-Estimation-in-Neural-Architecture-Search) | 2020 | [details](./info/Zheng2020Rethinking.md) |
 | [A Semi-Supervised Assessor of Neural Architectures](https://ieeexplore.ieee.org/document/9157156) |  CVPR   |    IC     | - | 2020 | [details](./info/Tang2020A.md) |
 | [GP-NAS: Gaussian Process Based Neural Architecture Search](https://ieeexplore.ieee.org/document/9157633/) |  CVPR   |    IC IR     | - | 2020 | [details](./info/Li2020GP.md) |
-
+| [BRP-NAS: Prediction-based NAS using GCNs](https://proceedings.neurips.cc/paper/2020/hash/768e78024aa8fdb9b8fe87be86f64745-Abstract.html) | NeurIPS | IC | - | 2020 | [details](info/Dudziak2020BRP-NAS.md) |
 
 
 #### 2.4 Others - O
@@ -325,8 +329,16 @@ For a quick look at the field, here is a short list of must-read papers.
 | [Towards Fast Adaptation of Neural Architectures with Meta Learning](https://openreview.net/forum?id=r1eowANFvr) |   ICLR    |    IC     | [github](https://github.com/dongzelian/T-NAS) | 2020 | [details](./info/Lian2020Towards.md) |
 | [Transferable AutoML by Model Sharing over Grouped Datasets](https://ieeexplore.ieee.org/abstract/document/8953631) |   CVPR    |    IC    | - | 2019 | [details](./info/Xue2019Transferable.md) |
 | [AutoML Strategy Based on Grammatical Evolution: A Case Study about Knowledge Discovery from Text](https://www.aclweb.org/anthology/P19-1428/) |   ACL    |    O    | [github](https://github.com/knowledge-learning/hp-optimization) | 2019 | [details](./info/Velarde2019AutoML.md) |
-
-
+|[Adapting Neural Architectures Between Domains](https://proceedings.neurips.cc/paper/2020/hash/08f38e0434442128fab5ead6217ca759-Abstract.html) |NeurIPS|IC| [*github*](https://github.com/liyxi/AdaptNAS)|2020| [details](info/Li2020Adapting.md)|
+| [Theory-Inspired Path-Regularized Differential Network Architecture Search](https://proceedings.neurips.cc/paper/2020/hash/5e1b18c4c6a6d31695acbae3fd70ecc6-Abstract.html) | NeurIPS | IC | [github](https://panzhous.github.io/) |2020 | [details](info/Zhou2020Theory-Inspired.md) |
+| [Semi-Supervised Neural Architecture Search](https://proceedings.neurips.cc/paper/2020/hash/77305c2f862ad1d353f55bf38e5a5183-Abstract.html) | NeurIPS | IC | [*github*](https://github.com/Zumbalamambo/SemiNAS) | 2020 | [details](info/Luo2020Semi-Supervised.md) |
+| [Does Unsupervised Architecture Representation Learning Help Neural Architecture Search?](https://proceedings.neurips.cc/paper/2020/hash/937936029af671cf479fa893db91cbdd-Abstract.html) | NeurIPS | IC | [github](https://github.com/MSU-MLSys-Lab/arch2vec) | 2020 | [details](info/Yan2020Does.md) |
+| [Differentiable Neural Architecture Search in Equivalent Space with Exploration Enhancement](https://proceedings.neurips.cc/paper/2020/hash/9a96a2c73c0d477ff2a6da3bf538f4f4-Abstract.html) | NeurIPS | IC | -| 2020 | [details](info/Zhang2020Differentiable.md) |
+| [Understanding and Exploring the Network with Stochastic Architectures](https://proceedings.neurips.cc/paper/2020/hash/aa85e45da94cb0d78853c50ba636a15a-Abstract.html) | NeurIPS| IC | [*github*](https://github.com/thudzj/NSA) | 2020 | [details](info/Deng2020Understanding.md) |
+| [Cream of the Crop: Distilling Prioritized Paths For One-Shot Neural Architecture Search](https://proceedings.neurips.cc/paper/2020/hash/d072677d210ac4c03ba046120f0802ec-Abstract.html) | NeurIPS | IC | [github](https://github.com/microsoft/cream.git) | 2020 | [details](info/Peng2020Cream.md)| 
+| [A Study on Encodings for Neural Architecture Search](https://proceedings.neurips.cc/paper/2020/hash/ea4eb49329550caaa1d2044105223721-Abstract.html) | NeurIPS | IC |  [github](https://github.com/naszilla/naszilla) | 2020 | [details](info/White2020A.md) |
+| [Hierarchical Neural Architecture Search for Deep Stereo Matching](https://proceedings.neurips.cc/paper/2020/hash/fc146be0b230d7e0a92e66a6114b840d-Abstract.html) | NeurIPS | O | [github](https://github.com/XuelianCheng/LEAStereo) | 2020 | [details](info/Cheng2020Hierarchical.md) |
+| [Firefly Neural Architecture Descent: a General Approach for Growing Neural Networks](https://proceedings.neurips.cc/paper/2020/hash/fdbe012e2e11314b96402b32c0df26b7-Abstract.html) | NeurIPS | IC| - | 2020 | [details](info/Wu2020Firefly.md) |
 
 ### 3 Systems
 
@@ -335,8 +347,8 @@ For a quick look at the field, here is a short list of must-read papers.
 | [Auto-Keras: An Efficient Neural Architecture Search System](https://arxiv.org/abs/1806.10282) |   -    | [github](https://github.com/keras-team/autokeras) | 2018 |
 | [Neural Network Intelligence](https://nni.readthedocs.io/en/latest/) |   -    | [github](https://github.com/microsoft/nni) |  -   |
 | [AdaNet: A Scalable and Flexible Framework for Automatically Learning Ensembles](https://arxiv.org/abs/1905.00080) | ICML-W | [github](https://github.com/tensorflow/adanet) | 2019 |
-
-
+| [Auto-Panoptic: Cooperative Multi-Component Architecture Search for Panoptic Segmentation](https://proceedings.neurips.cc/paper/2020/hash/ec1f764517b7ffb52057af6df18142b7-Abstract.html) | NeurIPS | [github](https://github.com/Jacobew/AutoPanoptic) | 2020 |
+| [PyGlove: Symbolic Programming for Automated Machine Learning](https://proceedings.neurips.cc/paper/2020/hash/012a91467f210472fab4e11359bbfef6-Abstract.html) | NeurIPS | - | 2020 |
 
 ## Team Members
 
