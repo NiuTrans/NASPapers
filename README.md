@@ -124,6 +124,12 @@ For a quick look at the field, here is a short list of must-read papers.
 | [AutoShrink: A Topology-aware NAS for Discovering Efficient Neural Architecture](https://aaai.org/ojs/index.php/AAAI/article/view/6163) |  AAAI   |     IC LM    | [github](https://github.com/lordzth666/AutoShrink) | 2020 | [details](./info/Zhang2020AutoShrink.md) |
 | [TextNAS: A Neural Architecture Search Space tailored for Text Representation](https://aaai.org/ojs/index.php/AAAI/article/view/6462) |   AAAI  |     O    | [github](https://github.com/microsoft/nni/tree/master/examples/nas/textnas) | 2020 | [details](./info/Wang2020TextNAS.md) |
 | [Angle-based Search Space Shrinking for Neural Architecture Search](https://arxiv.org/abs/2004.13431) |  ECCV   |     IC    | - | 2020 | [details](info/Hu2020Angle-based.md) |
+| [Graph-Guided Architecture Search for Real-Time Semantic Segmentation](https://ieeexplore.ieee.org/abstract/document/9157730) |  CVPR   |     SS    | - | 2020 | [details](./info/Lin2020Graph.md)) |
+| [MnasFPN : Learning Latency-aware Pyramid Architecture for Object Detection on Mobile Devices](https://ieeexplore.ieee.org/abstract/document/9156863) |  CVPR   |     OD    | - | 2020 | [details](./info/Chen2020MnasFPN.md) |
+| [SP-NAS: Serial-to-Parallel Backbone Search for Object Detection](https://ieeexplore.ieee.org/abstract/document/9156649/) |  CVPR   |     OD    | - | 2020 | [details](./info/Jiang2020SP.md) |
+| [FENAS: Flexible and Expressive Neural Architecture Search](https://www.aclweb.org/anthology/2020.findings-emnlp.258/) |  EMNLP   |     LM O    | - | 2020 | [details](./info/Pasunuru2020FENAS.md) |
+
+
 
 #### 2.2 Search Strategy
 ##### 2.2.1 Reinforcement Learning Methods - RL
@@ -257,6 +263,7 @@ For a quick look at the field, here is a short list of must-read papers.
 | [One-Shot Neural Architecture Search via Novelty Driven Sampling](https://www.ijcai.org/Proceedings/2020/0441) |  IJCAI  |    IC LM    | [github](https://github.com/MiaoZhang0525/ENNAS_MASTER) | 2020 | [details](./info/Zhang2020One.md) |
 | [SM-NAS: Structural-to-Modular Neural Architecture Search for Object Detection](https://aaai.org/ojs/index.php/AAAI/article/view/6958) |  AAAI  |    IR    | - | 2020 |  [details](./info/Yao2020SM.md) |
 | [Ultrafast Photorealistic Style Transfer via Neural Architecture Search](https://aaai.org/ojs/index.php/AAAI/article/view/6614) |  AAAI  |    O    | [github](https://github.com/Richard-An/StyleNAS) | 2020 | [details](./info/An2020Ultrafast.md) |
+| [FENAS: Flexible and Expressive Neural Architecture Search](https://www.aclweb.org/anthology/2020.findings-emnlp.258/) |  EMNLP   |     LM O    | - | 2020 | [details](./info/Pasunuru2020FENAS.md) |
 
 
 
@@ -316,6 +323,8 @@ For a quick look at the field, here is a short list of must-read papers.
 | [Evaluating The Search Phase of Neural Architecture Search](https://openreview.net/forum?id=H1loF2NFwr) |   ICLR    | LM IC | [github](https://github.com/kcyu2014/eval-nas) | 2020 | [details](./info/Yu2020Evaluation.md) |
 | [NAS evaluation is frustratingly hard](https://openreview.net/forum?id=HygrdpVKvr) |   ICLR    | IC | [github](https://github.com/antoyang/NAS-Benchmark) | 2020 | [details](./info/Yang2020NAS.md) |
 | [Towards Fast Adaptation of Neural Architectures with Meta Learning](https://openreview.net/forum?id=r1eowANFvr) |   ICLR    |    IC     | [github](https://github.com/dongzelian/T-NAS) | 2020 | [details](./info/Lian2020Towards.md) |
+| [Transferable AutoML by Model Sharing over Grouped Datasets](https://ieeexplore.ieee.org/abstract/document/8953631) |   CVPR    |    IC    | - | 2019 | [details](./info/Xue2019Transferable.md) |
+| [AutoML Strategy Based on Grammatical Evolution: A Case Study about Knowledge Discovery from Text](https://www.aclweb.org/anthology/P19-1428/) |   ACL    |    O    | [github](https://github.com/knowledge-learning/hp-optimization) | 2019 | [details](./info/Velarde2019AutoML.md) |
 
 
 
