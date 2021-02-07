@@ -132,6 +132,8 @@ For a quick look at the field, here is a short list of must-read papers.
 | [Neural Architecture Generator Optimization](https://proceedings.neurips.cc/paper/2020/hash/8c53d30ad023ce50140181f713059ddf-Abstract.html) | NeurIPS | IC IR | [github](https://github.com/huawei-noah/vega/) | 2020 | [details](info/Ru2020Neural.md) |
 | [CLEARER: Multi-Scale Neural Architecture Search for Image Restoration](https://proceedings.neurips.cc/paper/2020/hash/c6e81542b125c36346d9167691b8bd09-Abstract.html) | NeurIPS | IRT | [github](https://github.com/limit-scu) | 2020 | [details](info/Gou2020CLEARER.md) |
 | [RandAugment: Practical Automated Data Augmentation with a Reduced Search Space](https://proceedings.neurips.cc/paper/2020/hash/d85b63ef0ccb114d0a3bb7b7d808028f-Abstract.html) | NeurIPS| IC | [github](github.com/tensorflow/tpu/tree/master/models/official/efficientnet) | 2020 | [details](info/Cubuk2020RandAugment.md) |
+| [NAS-Bench-ASR: Reproducible Neural Architecture Search for Speech Recognition](https://openreview.net/forum?id=CU0APx9LMaL) |   ICLR  |     O    | - | 2021 | [details](info/Mehrotra2021NAS-Bench-ASR.md) |
+| [HW-NAS-Bench: Hardware-Aware Neural Architecture Search Benchmark](https://openreview.net/forum?id=_0kaDkv3dVf) |   ICLR  |     IC    | [github](https://github.com/RICE-EIC/HW-NAS-Bench) | 2021 | [details](info/Li2021HW-NAS-Bench.md) |
 
 
 
@@ -170,6 +172,7 @@ For a quick look at the field, here is a short list of must-read papers.
 | [Graph Neural Architecture Search](https://www.ijcai.org/Proceedings/2020/0195) |  IJCAI  |  O | [github](https://github.com/GraphNAS/GraphNAS) | 2020 |[details](info/Gao2020Graph.md) |
 | [InstaNAS: Instance-aware Neural Architecture Search](https://aaai.org/ojs/index.php/AAAI/article/view/5764) |  AAAI  | IC| [github](https://github.com/AnjieCheng/InstaNAS) | 2020 | [details](info/Cheng2020InstaNAS.md) |
 | [Towards Oracle Knowledge Distillation with Neural Architecture Search](https://aaai.org/ojs/index.php/AAAI/article/view/5866) |  AAAI  |IC|  - | 2020 |[details](info/Kang2020Towards.md) |
+| [Sample-Efficient Automated Deep Reinforcement Learning](https://openreview.net/forum?id=hSjxQ3B7GWq) |   ICLR  |     -    | - | 2021 | [details](info/Franke2021Sample.md) |
 
 
 
@@ -239,6 +242,9 @@ For a quick look at the field, here is a short list of must-read papers.
 | [Binarized Neural Architecture Search](https://aaai.org/ojs/index.php/AAAI/article/view/6624) |  AAAI  |    IC    | - | 2020 | [details](./info/Chen2020Binarized.md) |
 | [Neural Graph Embedding for Neural Architecture Search](https://aaai.org/ojs/index.php/AAAI/article/view/5903) |  AAAI  |    IC SS    | - | 2020 | [details](./info/Li2020NeuralG.md) |
 | [Efficient Neural Architecture Search via Proximal Iterations](https://aaai.org/ojs/index.php/AAAI/article/view/6143) |  AAAI  |    IC LM    | [github](https://github.com/xujinfan/NASP-codes) | 2020 | [details](./info/Yao2020Efficient.md) |
+| [Geometry-Aware Gradient Algorithms for Neural Architecture Search](https://openreview.net/forum?id=MuSYkd1hxRP) |   ICLR  |     IC    | [github](https://github.com/liamcli/gaea_release)] | 2021 | [details](info/Li2020Geometry.md) |
+| [Rethinking Architecture Selection in Differentiable NAS](https://openreview.net/forum?id=PKubaeJkw3) |   ICLR  |     IC    | - | 2021 | [details](info/Wang2021Rethinking.md) |
+| [DrNAS: Dirichlet Neural Architecture Search](https://openreview.net/forum?id=9FWas6YbmB3) |   ICLR  |     IC    | [github](https://github.com/xiangning-chen/DrNAS) | 2021 | [details](info/Chen2021DrNAS.md) |
 
 
 
@@ -278,6 +284,7 @@ For a quick look at the field, here is a short list of must-read papers.
 | [Learnable Embedding Space for Efficient Neural Architecture Compression](https://openreview.net/forum?id=S1xLN3C9YX) |  ICLR  |  IC   | [github](https://github.com/Friedrich1006/ESNAC) | 2019 | [details](./info/Cao2018Learnable.md) |
 | [Posterior-Guided Neural Architecture Search](https://aaai.org/ojs/index.php/AAAI/article/view/6181) |  AAAI  |    IC    | [github](https://github.com/scenarios/PGNAS) | 2020 | [details](./info/Zhou2020Posterior.md) |
 | [Bridging the Gap between Sample-based and One-shot Neural Architecture Search with BONAS](https://proceedings.neurips.cc/paper/2020/hash/13d4635deccc230c944e4ff6e03404b5-Abstract.html) | NeurIPS | IC |[github](https://github.com/pipilurj/BONAS)  | 2020 |[details](info/Shi2020Bridging.md) |
+| [Interpretable Neural Architecture Search via Bayesian Optimisation with Weisfeiler-Lehman Kernels](https://openreview.net/forum?id=j9Rv7qdXjd) |   ICLR  |     IC    | - | 2021 | [details](info/Wan2021Interpretable.md) |
 
 
 
@@ -339,6 +346,10 @@ For a quick look at the field, here is a short list of must-read papers.
 | [A Study on Encodings for Neural Architecture Search](https://proceedings.neurips.cc/paper/2020/hash/ea4eb49329550caaa1d2044105223721-Abstract.html) | NeurIPS | IC |  [github](https://github.com/naszilla/naszilla) | 2020 | [details](info/White2020A.md) |
 | [Hierarchical Neural Architecture Search for Deep Stereo Matching](https://proceedings.neurips.cc/paper/2020/hash/fc146be0b230d7e0a92e66a6114b840d-Abstract.html) | NeurIPS | O | [github](https://github.com/XuelianCheng/LEAStereo) | 2020 | [details](info/Cheng2020Hierarchical.md) |
 | [Firefly Neural Architecture Descent: a General Approach for Growing Neural Networks](https://proceedings.neurips.cc/paper/2020/hash/fdbe012e2e11314b96402b32c0df26b7-Abstract.html) | NeurIPS | IC| - | 2020 | [details](info/Wu2020Firefly.md) |
+| [Best Practices for Scientific Research on Neural Architecture Search](https://jmlr.org/papers/v21/20-056.html) |   JMLR  |     -    | - | 2020 | [details](info/Lindauer2020Best.md) |
+| [Neural Architecture Search on ImageNet in Four GPU Hours: A Theoretically Inspired Perspective](https://openreview.net/forum?id=Cnon5ezMHtu) |   ICLR  |     IC    | [github](https://github.com/VITA-Group/TENAS) | 2021 | [details](info/Chen2021Neural.md) |
+| [Rapid Neural Architecture Search by Learning to Generate Graphs from Datasets](https://openreview.net/forum?id=rkQuFUmUOg3) |   ICLR  |     IC    | - | 2021 | [details](info/Lee2021Rapid.md) |
+
 
 ### 3 Systems
 
