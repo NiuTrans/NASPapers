@@ -50,6 +50,14 @@ This document lists the papers published from 2017 to August 2020 on Neural Arch
   >   + OAR segmentation
   > + SS (Semantic Segmentation)
   > + VU (Video Understanding)
+  > + ASR (Automatic Speech Recognition)
+  >   + speech recognition
+  >   + speaker verification
+  >   + speaker identification
+  >   + acoustic scene classification
+  >   + keyword spotting
+  >   + spoken language identification
+  >   + multilingual speech recognition
 
 * Info
   > *Info is an extension of the paper introduction, including Title, Author, Abstract and Bib.*
@@ -124,7 +132,7 @@ This document lists the papers published from 2017 to August 2020 on Neural Arch
 | [RandAugment: Practical Automated Data Augmentation with a Reduced Search Space](https://proceedings.neurips.cc/paper/2020/hash/d85b63ef0ccb114d0a3bb7b7d808028f-Abstract.html) | NeurIPS| IC | [github](github.com/tensorflow/tpu/tree/master/models/official/efficientnet) | 2020 | [details](info/Cubuk2020RandAugment.md) |
 | [NAS-Bench-ASR: Reproducible Neural Architecture Search for Speech Recognition](https://openreview.net/forum?id=CU0APx9LMaL) |   ICLR  |     O    | - | 2021 | [details](info/Mehrotra2021NAS-Bench-ASR.md) |
 | [HW-NAS-Bench: Hardware-Aware Neural Architecture Search Benchmark](https://openreview.net/forum?id=_0kaDkv3dVf) |   ICLR  |     IC    | [github](https://github.com/RICE-EIC/HW-NAS-Bench) | 2021 | [details](info/Li2021HW-NAS-Bench.md) |
-
+| [Evolved Speech-Transformer: Applying Neural Architecture Search to End-to-End Automatic Speech Recognition](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/1233.html) |   INTERSPEECH  |     ASR    | - | 2020 | [details](info/Kim2020Evolved.md) |
 
 
 #### 2.2 Search Strategy
@@ -235,7 +243,8 @@ This document lists the papers published from 2017 to August 2020 on Neural Arch
 | [Geometry-Aware Gradient Algorithms for Neural Architecture Search](https://openreview.net/forum?id=MuSYkd1hxRP) |   ICLR  |     IC    | [github](https://github.com/liamcli/gaea_release) | 2021 | [details](info/Li2020Geometry.md) |
 | [Rethinking Architecture Selection in Differentiable NAS](https://openreview.net/forum?id=PKubaeJkw3) |   ICLR  |     IC    | - | 2021 | [details](info/Wang2021Rethinking.md) |
 | [DrNAS: Dirichlet Neural Architecture Search](https://openreview.net/forum?id=9FWas6YbmB3) |   ICLR  |     IC    | [github](https://github.com/xiangning-chen/DrNAS) | 2021 | [details](info/Chen2021DrNAS.md) |
-
+| [Neural Architecture Search for Keyword Spotting](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/3132.html) |   INTERSPEECH  |      ASR    | - | 2020 | [details](info/Mo2020Neural.md) |
+| [DARTS-ASR: Differentiable Architecture Search for Multilingual Speech Recognition and Adaptation](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/1315.html) |   INTERSPEECH  |     ASR     | - | 2020 | [details](info/Chen2020DARTS-ASR.md) |
 
 
 ##### 2.2.3 Evolutionary Algorithms - EA
@@ -264,7 +273,8 @@ This document lists the papers published from 2017 to August 2020 on Neural Arch
 | [SM-NAS: Structural-to-Modular Neural Architecture Search for Object Detection](https://aaai.org/ojs/index.php/AAAI/article/view/6958) |  AAAI  |    IR    | - | 2020 |  [details](./info/Yao2020SM.md) |
 | [Ultrafast Photorealistic Style Transfer via Neural Architecture Search](https://aaai.org/ojs/index.php/AAAI/article/view/6614) |  AAAI  |    O    | [github](https://github.com/Richard-An/StyleNAS) | 2020 | [details](./info/An2020Ultrafast.md) |
 | [FENAS: Flexible and Expressive Neural Architecture Search](https://www.aclweb.org/anthology/2020.findings-emnlp.258/) |  EMNLP   |     LM O    | - | 2020 | [details](./info/Pasunuru2020FENAS.md) |
-
+| [Evolutionary Algorithm Enhanced Neural Architecture Search for Text-Independent Speaker Verification](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/3057.html) |   INTERSPEECH  |     ASR    | - | 2020 | [details](info/Qu2020Evolutionary.md) |
+| [Neural Architecture Search on Acoustic Scene Classification](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/0057.html) |   INTERSPEECH  |     ASR    | - | 2020 | [details](info/Li2020Neural1.md) |
 
 
 ##### 2.2.4 Bayesian Optimization - BO
@@ -339,7 +349,8 @@ This document lists the papers published from 2017 to August 2020 on Neural Arch
 | [Best Practices for Scientific Research on Neural Architecture Search](https://jmlr.org/papers/v21/20-056.html) |   JMLR  |     -    | - | 2020 | [details](info/Lindauer2020Best.md) |
 | [Neural Architecture Search on ImageNet in Four GPU Hours: A Theoretically Inspired Perspective](https://openreview.net/forum?id=Cnon5ezMHtu) |   ICLR  |     IC    | [github](https://github.com/VITA-Group/TENAS) | 2021 | [details](info/Chen2021Neural.md) |
 | [Rapid Neural Architecture Search by Learning to Generate Graphs from Datasets](https://openreview.net/forum?id=rkQuFUmUOg3) |   ICLR  |     IC    | - | 2021 | [details](info/Lee2021Rapid.md) |
-
+| [AutoSpeech: Neural Architecture Search for Speaker Recognition](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/1258.html) |   INTERSPEECH  |     ASR    | [github](https://github.com/TAMU-VITA/AutoSpeech) | 2020 | [details](info/Ding2020AutoSpeech.md) |
+| [Improving Keyword Spotting and Language Identification via Neural Architecture Search at Scale](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/1916.html) |   INTERSPEECH  |    ASR     | - | 2019 | [details](info/Mazzawi2020Improving.md) |
 
 ### 3 Systems
 
