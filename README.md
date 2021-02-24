@@ -1,13 +1,12 @@
 # Paper Lists of Neural Architecture Search
 
-In this document, we list the papers published from 2017 to August 2020 on Neural Architecture Search (NAS). We categorize these papers into popular topics, and collect the code for them.
+This document lists the papers published from 2017 to August 2020 on Neural Architecture Search (NAS). We categorize these papers into popular topics and collect the code for them.
 
 ## Outline
 
 - [Paper Lists of Neural Architecture Search](#paper-lists-of-neural-architecture-search)
   - [Outline](#outline)
   - [A Short List](#a-short-list)
-    - [High Citation Papers](#high-citation-papers)
   - [A Long List](#a-long-list)
     - [1 Surveys - S](#1-surveys---s)
     - [2 Methods](#2-methods)
@@ -24,12 +23,12 @@ In this document, we list the papers published from 2017 to August 2020 on Neura
 
 * Code
   > *We find the code for some of the papers (if there are any).*
-  > *Italic in code links indicates these codes are not written by the authors of the paper. (like [GitHub]())*
+  > *Parentheses in code links indicate that the code was not written by the author of the paper. (like* [(github)](https://github.com/)*)*
 
 * Task
-  > *We summarize the tasks of these papers according to the experimentals described in them.*
-  > *For natational simplicity, we use short names of the tasks (in alphabetical order)*
-  > + Classification
+  > *We summarize the tasks of these papers according to the experiments described in them.*
+  > *For notational simplicity, we use short names of the tasks (in alphabetical order).*
+  > + CL
   >   + object classification
   >   + scene classification
   >   + point cloud classification
@@ -46,7 +45,7 @@ In this document, we list the papers published from 2017 to August 2020 on Neura
   > + NER (Named Entity Recognition)
   > + O (Other)
   > + OD (Object Detection)
-  > + Segmentation
+  > + SE
   >   + instance segmentation
   >   + OAR segmentation
   > + SS (Semantic Segmentation)
@@ -55,45 +54,36 @@ In this document, we list the papers published from 2017 to August 2020 on Neura
 * Info
   > *Info is an extension of the paper introduction, including Title, Author, Abstract and Bib.*
 
-* High Citation Papers
-  > *Data was from [Google Scholar](https://scholar.google.com/), and was updated on September 12th. Bold in titles means that these papers are highly cited. See below for how we determined if a paper is highly cited. We know that there is no standards for this. We just have some simple rules.*
-  > + *Papers published in 2020 are cited by more than or equal to 20 papers.*
-  > + *Papers published in 2019 are cited by more than or equal to 100 papers.*
-  > + *Papers published before 2019 are cited by more than or equal to 500 papers.*
+* A Short List
+  > *For a quick look at the field, here is a short list of must-read papers.*
+  > *In this section, we list some highly cited papers, and we also recommend some papers that may be helpful for beginners (bold).*
 
 ## A Short List
 
-For a quick look at the field, here is a short list of must-read papers.
-
-### High Citation Papers
 | Title                                    |   Type  |  Task  |                   Code                   | Year | Citations | Info |
 | :--------------------------------------- | :-----: | :----: | :--------------------------------------: | :--: | :-------: | :--: |
-| [Neural Architecture Search with Reinforcement Learning](https://openreview.net/forum?id=r1Ue8Hcxg) |  RL   |    IC LM     |                    -                     | 2017 | 1876 | [details](./info/high-citation-info/Zoph2017Neural.md) |
+| [**Neural Architecture Search with Reinforcement Learning**](https://openreview.net/forum?id=r1Ue8Hcxg) |  RL   |    IC LM     |                    -                     | 2017 | 1876 | [details](./info/high-citation-info/Zoph2017Neural.md) |
 | [Learning Transferable Architectures for Scalable Image Recognition](https://ieeexplore.ieee.org/document/8579005) |  RL   |    IC     | [github](https://github.com/tensorflow/models/tree/master/research/slim/nets/nasnet) | 2018 | 1830 | [details](./info/high-citation-info/Zoph2018Learning.md) |
-| [DARTS: Differentiable Architecture Search](https://openreview.net/forum?id=S1eYHoC5FX) |  G   |  IC  LM   | [github](https://github.com/quark0/darts) | 2018 | 856 | [details](./info/high-citation-info/Liu2018DARTS.md) |
-| [Efficient Neural Architecture Search via Parameter Sharing](http://proceedings.mlr.press/v80/pham18a.html) |  RL   |    LM IC     | [github](https://github.com/carpedm20/ENAS-pytorch) | 2018 | 825 | [details](./info/high-citation-info/Pham2018Efficient.md) |
+| [**DARTS: Differentiable Architecture Search**](https://openreview.net/forum?id=S1eYHoC5FX) |  G   |  IC  LM   | [github](https://github.com/quark0/darts) | 2018 | 856 | [details](./info/high-citation-info/Liu2018DARTS.md) |
+| [**Efficient Neural Architecture Search via Parameter Sharing**](http://proceedings.mlr.press/v80/pham18a.html) |  RL   |    LM IC     | [github](https://github.com/carpedm20/ENAS-pytorch) | 2018 | 825 | [details](./info/high-citation-info/Pham2018Efficient.md) |
 | [Regularized Evolution for Image Classifier Architecture Search](https://aaai.org/ojs/index.php/AAAI/article/view/4405) | EA  |  IC   |                    -                     | 2018 | 753 | [details](./info/high-citation-info/Real2019Regularized.md) |
 | [Progressive Neural Architecture Search](https://openaccess.thecvf.com/content_ECCV_2018/html/Chenxi_Liu_Progressive_Neural_Architecture_ECCV_2018_paper.html) |  PD  |  IC   | [github](https://github.com/chenxi116/PNASNet.pytorch) | 2018 | 708 | [details](./info/high-citation-info/Liu2018Progressive.md) |
+| [**Neural architecture search: A survey**](http://jmlr.org/papers/v20/18-598.html) | JMLR  | - |                   -                     | 2018 | 721 |[details](info/Elsken2019Neural.md) |
 | [Large-Scale Evolution of Image Classifiers](http://proceedings.mlr.press/v70/real17a.html) | EA  |  IC   |                    -                     | 2017 | 697 | [details](./info/high-citation-info/Real2017Large.md) |
 | [Designing Neural Network Architectures using Reinforcement Learning](https://openreview.net/forum?id=S1c2cvqee) |  RL   |    IC     | [github](https://github.com/bowenbaker/metaqnn) | 2017 | 618 | [details](./info/high-citation-info/Baker2017Designing.md) |
 | [MnasNet: Platform-Aware Neural Architecture Search for Mobile](https://ieeexplore.ieee.org/document/8954198/) |  RL   |   IC IR   | [github](https://github.com/AnjieZheng/MnasNet-PyTorch) | 2018 | 578 | [details](./info/high-citation-info/Tan2018MnasNet.md) |
 | [Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization](https://arxiv.org/abs/1603.06560) |  PD  |  IC   |                    -                     | 2017 | 537 | [details](./info/high-citation-info/Li2017Hyperband.md) |
 | [ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware](https://openreview.net/forum?id=HylVB3AqYm) |  RL/G   |   IC    | [github](https://github.com/MIT-HAN-LAB/ProxylessNAS) | 2019 | 450 | [details](./info/high-citation-info/Cai2019ProxylessNAS.md) |
-| [Searching for MobileNetV3](https://openaccess.thecvf.com/content_ICCV_2019/html/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.html) |  O   |     IC OD SS     | [*github*](https://github.com/leaderj1001/MobileNetV3-Pytorch) | 2019 | 308 | [details](./info/high-citation-info/Howard2019Searching.md) |
+| [Searching for MobileNetV3](https://openaccess.thecvf.com/content_ICCV_2019/html/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.html) |  O   |     IC OD SS     | [(github)](https://github.com/leaderj1001/MobileNetV3-Pytorch) | 2019 | 308 | [details](./info/high-citation-info/Howard2019Searching.md) |
+| [**Neural Architecture Optimization**](http://papers.nips.cc/paper/8007-neural-architecture-optimization) | NeurIPS |  IC LM   | [github](https://github.com/renqianluo/NAO) | 2018 | 296 | [details](info/Luo2018Nerual.md) |
 | [Auto-DeepLab: Hierarchical Neural Architecture Search for Semantic Image Segmentation](https://ieeexplore.ieee.org/document/8954247/) |  G   |  SS   | [gitHub](https://github.com/tensorflow/models/tree/master/research/deeplab) | 2019 | 277 | [details](./info/high-citation-info/Liu2019Auto-DeepLab.md) |
 | [FBNet: Hardware-Aware Efficient ConvNet Design via Differentiable Neural Architecture Search](https://ieeexplore.ieee.org/document/8953587/) |  G   |   IC    | [github](https://github.com/facebookresearch/mobile-vision) | 2019 | 276 | [details](./info/high-citation-info/Wu2019FBNet.md) |
 | [SNAS: stochastic neural architecture search](https://openreview.net/forum?id=rylqooRqK7) |  G    |  IC  | [github](https://github.com/SNAS-Series/SNAS-Series/tree/master/SNAS) | 2019 | 253 | [details](./info/high-citation-info/Xie2019SNAS.md) |
-| [Random Search and Reproducibility for Neural Architecture Search](http://auai.org/uai2019/proceedings/papers/129.pdf) |   G   |  IC LM   | [github](https://github.com/D-X-Y/NAS-Projects/blob/master/scripts-search/algos/RANDOM-NAS.sh) | 2019 | 160 | [details](./info/high-citation-info/Li2019Random.md) |
-| [Efficient Multi-Objective Neural Architecture Search via Lamarckian Evolution](https://openreview.net/forum?id=ByME42AqK7) | EA  |  IC   |                    -                     | 2019 | 120 | [details](./info/high-citation-info/Elsken2019Efficient.md) |
-| [Exploring Randomly Wired Neural Networks for Image Recognition](https://openaccess.thecvf.com/content_ICCV_2019/html/Xie_Exploring_Randomly_Wired_Neural_Networks_for_Image_Recognition_ICCV_2019_paper.html) |  SP   |     IC OD   | [*github*](https://github.com/seungwonpark/RandWireNN) | 2019 | 120 | [details](./info/high-citation-info/Xie2019Exploring.md) |
-| [Searching for A Robust Neural Architecture in Four GPU Hours](https://ieeexplore.ieee.org/document/8953848/) |  G   |  IC LM   | [github](https://github.com/D-X-Y/NAS-Projects) | 2019 | 105 | [details](./info/high-citation-info/Dong2019Searching.md) |
-| [Evaluating The Search Phase of Neural Architecture Search](https://openreview.net/forum?id=H1loF2NFwr) |   O/S    |  LM IC  | [github](https://github.com/kcyu2014/eval-nas) | 2020 | 92 | [details](./info/high-citation-info/Yu2020Evaluating.md) |
-| [PC-DARTS: Partial Channel Connections for Memory-Efficient Architecture Search](https://openreview.net/forum?id=BJlS634tPr&noteId=BJlS634tPr) |  G   |  IC  OD   | [github](https://github.com/yuhuixu1993/PC-DARTS) | 2020 | 52 | [details](./info/high-citation-info/Xu2020PC-DARTS.md) |
-| [NAS-BENCH-201: Extending the Scope of Reproducible Neural Architecture Search](https://openreview.net/forum?id=HJxyZkBKDr) |   SP    |    IC     | [github](https://github.com/D-X-Y/AutoDL-Projects) | 2020 | 46 | [details](./info/high-citation-info/Dong2020NAS.md) |
-| [Understanding and Robustifying Differentiable Architecture Search](https://openreview.net/forum?id=H1gDNyrKDS) |  G   |    IC LM   | [github](https://github.com/automl/RobustDARTS) | 2020 | 32 | [details](./info/high-citation-info/Zela2020Understanding.md) |
-| [NAS evaluation is frustratingly hard](https://openreview.net/forum?id=HygrdpVKvr) | O/S  | IC | [github](https://github.com/antoyang/NAS-Benchmark) | 2020 | 24 | [details](./info/high-citation-info/Yang2020NAS.md) |
-| [NAS-Bench-1Shot1: Benchmarking and Dissecting One-shot Neural Architecture Search](https://openreview.net/forum?id=SJx9ngStPH) |  SP   |     -    | [github](https://github.com/automl/nasbench-1shot1) | 2020 | 20 | [details](./info/high-citation-info/Zela2020NAS.md) |
-| [AtomNAS: Fine-Grained End-to-End Neural Architecture Search](https://openreview.net/forum?id=BylQSxHFwr) |  G   |  IC  OD Segmentation   | [github](https://github.com/meijieru/AtomNAS) | 2020 | 20 | [details](./info/high-citation-info/Mei20AtomNAS.md) |
+| [**Random Search and Reproducibility for Neural Architecture Search**](http://auai.org/uai2019/proceedings/papers/129.pdf) |   UAI   |  IC LM   | [github](https://github.com/D-X-Y/NAS-Projects/blob/master/scripts-search/algos/RANDOM-NAS.sh) | 2019 | 224 | [details](info/Li2019Random.md) |
+| [**NAT: Neural Architecture Transformer for Accurate and Compact Architectures**](https://papers.nips.cc/paper/8362-nat-neural-architecture-transformer-for-accurate-and-compact-architectures.html) |  NeurlPS  | IC | [github](https://github.com/guoyongcs/NAT) | 2019 | 37 |[details](info/Guo2019NAT.md) |
+| [**Neural Network Intelligence**](https://nni.readthedocs.io/en/latest/) |   -    |   -    | [github](https://github.com/microsoft/nni) |  -   | - |   -    |
+
+
 
 ## A Long List
 
@@ -118,7 +108,7 @@ For a quick look at the field, here is a short list of must-read papers.
 | [MFAS: Multimodal Fusion Architecture Search](https://ieeexplore.ieee.org/document/8954353) | CVPR  |  VU   |                    -                     | 2019 | [details](./info/Perez-Rua2019MFAS.md) |
 | [NAS-Bench-101: Towards Reproducible Neural Architecture Search](http://proceedings.mlr.press/v97/ying19a.html) |   ICML    |    IC     | [github](https://github.com/google-research/nasbench) | 2019 | [details](info/Ying2019NAS.md) |
 | [Auto-ReID: Searching for a Part-Aware ConvNet for Person Re-Identification](https://openaccess.thecvf.com/content_ICCV_2019/html/Quan_Auto-ReID_Searching_for_a_Part-Aware_ConvNet_for_Person_Re-Identification_ICCV_2019_paper.html) |  ICCV   |     IR    | - | 2019 | [details](info/Quan2019Auto-ReID.md) |
-| [Exploring Randomly Wired Neural Networks for Image Recognition](https://openaccess.thecvf.com/content_ICCV_2019/html/Xie_Exploring_Randomly_Wired_Neural_Networks_for_Image_Recognition_ICCV_2019_paper.html) |  ICCV   |     IC OD    | [*github*](https://github.com/seungwonpark/RandWireNN) | 2019 | [details](info/Xie2019Exploring.md) |
+| [Exploring Randomly Wired Neural Networks for Image Recognition](https://openaccess.thecvf.com/content_ICCV_2019/html/Xie_Exploring_Randomly_Wired_Neural_Networks_for_Image_Recognition_ICCV_2019_paper.html) |  ICCV   |     IC OD    | [(github)](https://github.com/seungwonpark/RandWireNN) | 2019 | [details](info/Xie2019Exploring.md) |
 | [NAS-Bench-1Shot1: Benchmarking and Dissecting One-shot Neural Architecture Search](https://openreview.net/forum?id=SJx9ngStPH) |  ICLR   |     -    | [github](https://github.com/automl/nasbench-1shot1) | 2020 | [details](./info/Zela2020NAS.md) |
 | [NAS-BENCH-201: Extending the Scope of Reproducible Neural Architecture Search](https://openreview.net/forum?id=HJxyZkBKDr) |   ICLR    |    IC     | [github](https://github.com/D-X-Y/AutoDL-Projects) | 2020 | [details](./info/Dong2020NAS.md) |
 | [AutoShrink: A Topology-aware NAS for Discovering Efficient Neural Architecture](https://aaai.org/ojs/index.php/AAAI/article/view/6163) |  AAAI   |     IC LM    | [github](https://github.com/lordzth666/AutoShrink) | 2020 | [details](./info/Zhang2020AutoShrink.md) |
@@ -209,7 +199,7 @@ For a quick look at the field, here is a short list of must-read papers.
 | [BayesNAS: A Bayesian Approach for Neural Architecture Search](http://proceedings.mlr.press/v97/zhou19e.html) |  ICML  |    IC    | [github](https://github.com/BayesNAS) | 2019 | [details](info/Zhou2019BayesNAS.md) |
 | [MiLeNAS: Efficient Neural Architecture Search via Mixed-Level Reformulation](https://ieeexplore.ieee.org/document/9156336/) |  CVPR   |  IC   | [github](https://github.com/chaoyanghe/MiLeNAS) | 2020 | [details](info/He2020MiLeNAS.md) |
 | [APQ: Joint Search for Network Architecture, Pruning and Quantization Policy](https://ieeexplore.ieee.org/document/9156411/) |  CVPR   |  IC   | [github](https://github.com/mit-han-lab/apq) | 2020 | [details](info/Wang2020APQ.md) |
-| [SGAS: Sequential Greedy Architecture Search](https://ieeexplore.ieee.org/document/9157406/) |  CVPR   |  IC Classification   | [github](https://github.com/lightaime/sgas) | 2020 | [details](info/Li2020SGAS.md) |
+| [SGAS: Sequential Greedy Architecture Search](https://ieeexplore.ieee.org/document/9157406/) |  CVPR   |  IC CL   | [github](https://github.com/lightaime/sgas) | 2020 | [details](info/Li2020SGAS.md) |
 | [FBNetV2: Differentiable Neural Architecture Search for Spatial and Channel Dimensions](https://ieeexplore.ieee.org/document/9156431/) |  CVPR   |  IC   | [github](https://github.com/facebookresearch/mobile-vision) | 2020 | [details](info/Wan2020FBNetV2.md) |
 | [Block-wisely Supervised Neural Architecture Search with Knowledge Distillation](https://ieeexplore.ieee.org/document/9157026/) |  CVPR   |  IC   | [github](https://github.com/changlin31/DNA) | 2020 | [details](info/Li2020Block-wisely.md) |
 | [Overcoming Multi-Model Forgetting in One-Shot NAS with Diversity Maximization](https://ieeexplore.ieee.org/document/9156768/) |  CVPR   |  IC  LM   | [github](https://github.com/MiaoZhang0525/NSAS_FOR_CVPR) | 2020 | [details](info/Zhang2020Overcoming.md) |
@@ -217,7 +207,7 @@ For a quick look at the field, here is a short list of must-read papers.
 | [Understanding Architectures Learnt by Cell-based Neural Architecture Search](https://openreview.net/forum?id=BJxH22EKPS) |  ICLR   |  IC   | [github](https://github.com/shuyao95/Understanding-NAS) | 2020 | [details](info/Shu2020Understanding.md) |
 | [PC-DARTS: Partial Channel Connections for Memory-Efficient Architecture Search](https://openreview.net/forum?id=BJlS634tPr&noteId=BJlS634tPr) |  ICLR   |  IC  OD   | [github](https://github.com/yuhuixu1993/PC-DARTS) | 2020 | [details](info/Xu2020PC-DARTS.md) |
 | [FasterSeg: Searching for Faster Real-time Semantic Segmentation](https://openreview.net/forum?id=BJgqQ6NYvB) |  ICLR   |  SS   | [github](https://github.com/TAMU-VITA/FasterSeg) | 2020 | [details](info/Chen2020Searching.md) |
-| [AtomNAS: Fine-Grained End-to-End Neural Architecture Search](https://openreview.net/forum?id=BylQSxHFwr) |  ICLR   |  IC  OD   Segmentation   | [github](https://github.com/meijieru/AtomNAS) | 2020 | [details](info/Mei20AtomNAS.md) |
+| [AtomNAS: Fine-Grained End-to-End Neural Architecture Search](https://openreview.net/forum?id=BylQSxHFwr) |  ICLR   |  IC  OD   SE   | [github](https://github.com/meijieru/AtomNAS) | 2020 | [details](info/Mei20AtomNAS.md) |
 | [Fast Neural Network Adaptation via Parameter Remapping and Architecture Search](https://openreview.net/forum?id=rklTmyBKPH) |  ICLR   |  SS OD   | [github](https://github.com/JaminFong/FNA) | 2020 | [details](info/Fang2020Fast.md) |
 | [Learning Architectures from an Extended Search Space for Language Modeling](https://arxiv.org/abs/2005.02593v1) |   ACL   |  LM  NER  O   |                    -                     | 2020 | [details](info/Li2020Learning.md) |
 | [Are Labels Necessary for Neural Architecture Search?](https://arxiv.org/abs/2003.12056) |  ECCV  |    IC  SS    | [github](https://github.com/facebookresearch/unnas) | 2020 | [details](info/Liu2020Are.md) |
@@ -225,10 +215,10 @@ For a quick look at the field, here is a short list of must-read papers.
 | [Stabilizing Differentiable Architecture Search via Perturbation-based Regularization](https://arxiv.org/abs/2002.05283) |  ICML  |    IC  LM    | [github](https://github.com/xiangning-chen/SmoothDARTS) | 2020 | [details](info/Chen2020Stabilizing.md) |
 | [Memory-Efficient Hierarchical Neural Architecture Search for Image Denoising](https://ieeexplore.ieee.org/document/9156867/) |  CVPR  |    IRT    | - | 2020 | [details](info/Zhang2020Memory-Efficient.md) |
 | [All in One Bad Weather Removal Using Architectural Search](https://ieeexplore.ieee.org/document/9157460/) |  CVPR  |    IRT    | - | 2020 | [details](info/Li2020All.md) |
-| [Organ at Risk Segmentation for Head and Neck Cancer Using Stratified Learning and Neural Architecture Search](https://ieeexplore.ieee.org/document/9156960/) |  CVPR  |    Segmentation    | - | 2020 | [details](info/Guo2020Organ.md) |
+| [Organ at Risk Segmentation for Head and Neck Cancer Using Stratified Learning and Neural Architecture Search](https://ieeexplore.ieee.org/document/9156960/) |  CVPR  |    SE    | - | 2020 | [details](info/Guo2020Organ.md) |
 | [Neural Architecture Search for Lightweight Non-Local Networks](https://ieeexplore.ieee.org/document/9157189/) |  CVPR  |    IC SS    | [github](https://github.com/LiYingwei/AutoNL) | 2020 | [details](info/Li2020Neural.md) |
 | [UNAS: Differentiable Architecture Search Meets Reinforcement Learning](https://ieeexplore.ieee.org/document/9156297/) |  CVPR  |    IC    | - | 2020 | [details](info/Vahdat2020UNAS.md) |
-| [MTL-NAS: Task-Agnostic Neural Architecture Search Towards General-Purpose Multi-Task Learning](https://ieeexplore.ieee.org/document/9157640/) |  CVPR  |    SS Classification O    | [github](https://github.com/bhpfelix/MTLNAS) | 2020 | [details](info/Gao2020MTL-NAS.md) |
+| [MTL-NAS: Task-Agnostic Neural Architecture Search Towards General-Purpose Multi-Task Learning](https://ieeexplore.ieee.org/document/9157640/) |  CVPR  |    SS CL O    | [github](https://github.com/bhpfelix/MTLNAS) | 2020 | [details](info/Gao2020MTL-NAS.md) |
 | [Hit-Detector: Hierarchical Trinity Architecture Search for Object Detection](https://ieeexplore.ieee.org/document/9156291) |  CVPR  |    OD    | [github](https://github.com/ggjy/HitDet.pytorch) | 2020 | [details](info/Guo2020Hit-Detector.md) |
 | [DSNAS: Direct Neural Architecture Search Without Parameter Retraining](https://ieeexplore.ieee.org/document/9157467/) |  CVPR  |    IC    | [github](https://github.com/SNAS-Series/SNAS-Series/) | 2020 | [details](info/Hu2020DSNAS.md) |
 | [Meta-Learning of Neural Architectures for Few-Shot Learning](https://ieeexplore.ieee.org/document/9157641) |  CVPR  |    IR    | - | 2020 | [details](info/Elsken2020Meta-Learning.md) |
@@ -252,7 +242,7 @@ For a quick look at the field, here is a short list of must-read papers.
 | Title                                    | Venue | Task  |                   Code                   | Year | Info |
 | :--------------------------------------- | :---: | :---: | :--------------------------------------: | :--: | :--: |
 | [Large-Scale Evolution of Image Classifiers](http://proceedings.mlr.press/v70/real17a.html) | ICML  |  IC   |                    -                     | 2017 | [details](./info/Real2017Large.md) |
-| [Genetic CNN](https://openaccess.thecvf.com/content_iccv_2017/html/Xie_Genetic_CNN_ICCV_2017_paper.html) |  ICCV   |    IC     | [*github*](https://github.com/aqibsaeed/Genetic-CNN) | 2017 | [details](./info/Xie2017Genetic.md) |
+| [Genetic CNN](https://openaccess.thecvf.com/content_iccv_2017/html/Xie_Genetic_CNN_ICCV_2017_paper.html) |  ICCV   |    IC     | [(github)](https://github.com/aqibsaeed/Genetic-CNN) | 2017 | [details](./info/Xie2017Genetic.md) |
 | [Hierarchical Representations for Efficient Architecture Search](https://openreview.net/forum?id=BJQRKzbA-) | ICLR  |  IC   |                    -                     | 2018 | [details](./info/Liu2018Hierarchical.md) |
 | [Regularized Evolution for Image Classifier Architecture Search](https://aaai.org/ojs/index.php/AAAI/article/view/4405) | AAAI  |  IC   |                    -                     | 2018 | [details](./info/Real2019Regularized.md) |
 | [A Genetic Programming Approach to Designing Convolutional Neural Network Architectures](https://www.ijcai.org/Proceedings/2018/0755) |  IJCAI  |    IC    | [github](https://github.com/sg-nm/cgp-cnn) | 2018 | [details](./info/Suganuma2018A.md) |
@@ -266,7 +256,7 @@ For a quick look at the field, here is a short list of must-read papers.
 | [CARS: Continuous Evolution for Efficient Neural Architecture Search](https://ieeexplore.ieee.org/document/9156384/) |  CVPR   |    IC     | [github](https://github.com/huawei-noah/CARS) | 2020 | [details](./info/Yang2020CARS.md) |
 | [GreedyNAS: Towards Fast One-Shot NAS With Greedy Supernet](https://ieeexplore.ieee.org/document/9156924/) |  CVPR   |    IC     | - | 2020 | [details](./info/You2020GreedyNAS.md) |
 | [MemNAS: Memory-Efficient Neural Architecture Search With Grow-Trim Learning](https://ieeexplore.ieee.org/document/9156558/) |  CVPR   |    IC     | - | 2020 | [details](./info/Liu2020MemNAS.md) |
-| [C2FNAS: Coarse-to-Fine Neural Architecture Search for 3D Medical Image Segmentation](https://ieeexplore.ieee.org/document/9156654/) |  CVPR   |    Segmentation    | - | 2020 | [details](./info/Yu2020C2FNAS.md) |
+| [C2FNAS: Coarse-to-Fine Neural Architecture Search for 3D Medical Image Segmentation](https://ieeexplore.ieee.org/document/9156654/) |  CVPR   |    SE    | - | 2020 | [details](./info/Yu2020C2FNAS.md) |
 | [EcoNAS: Finding Proxies for Economical Neural Architecture Search](https://ieeexplore.ieee.org/document/9157571/) |  CVPR   |    IC     | - | 2020 | [details](./info/Zhou2020EcoNAS.md) |
 | [Improving One-Shot NAS by Suppressing the Posterior Fading](https://ieeexplore.ieee.org/document/9156314/) |  CVPR   |    IC     | - | 2020 | [details](./info/Li2020Improving.md) |
 | [AssembleNet: Searching for Multi-Stream Neural Connectivity in Video Architectures](https://openreview.net/forum?id=SJgMK64Ywr) |  ICLR   |    VU    | - | 2020 | [details](./info/Ryoo2020AssembleNet.md) |
@@ -314,10 +304,10 @@ For a quick look at the field, here is a short list of must-read papers.
 | [Hyperparameter Optimization: A Spectral Approach](https://arxiv.org/abs/1706.00764) | NeurIPS-W |  IC|  [github](https://github.com/callowbird/Harmonica) | 2017 |[details](info/Hazan2017Hyperparameter.md) |
 | [PPP-Net: Platform-aware Progressive Search for Pareto-optimal Neural Architectures](https://openreview.net/forum?id=B1NT3TAIM) |  ICLR  | IC |     - | 2018 |[details](info/Dong2018PPP-Net.md) |
 | [DeepArchitect: Automatically Designing and Training Deep Architectures](https://openreview.net/forum?id=rkTBjG-AZ) |  ICLR  | IC|    [github](https://github.com/negrinho/deep_architect_legacy) | 2018 |[details](info/Negrinho2018DeepArchitect.md) |
-| [Fast and Practical Neural Architecture Search](https://openaccess.thecvf.com/content_ICCV_2019/html/Cui_Fast_and_Practical_Neural_Architecture_Search_ICCV_2019_paper.html) |   ICCV    | IC|    [*github*](https://github.com/FPNAS/FPNASNet) | 2019 |[details](info/Cui2019Fast.md) |
+| [Fast and Practical Neural Architecture Search](https://openaccess.thecvf.com/content_ICCV_2019/html/Cui_Fast_and_Practical_Neural_Architecture_Search_ICCV_2019_paper.html) |   ICCV    | IC|    [(github)](https://github.com/FPNAS/FPNASNet) | 2019 |[details](info/Cui2019Fast.md) |
 | [Teacher Guided Architecture Search](https://openaccess.thecvf.com/content_ICCV_2019/html/Bashivan_Teacher_Guided_Architecture_Search_ICCV_2019_paper.html) |   ICCV  | IC |    -               | 2019 | [details](info/Bashivan2019Teacher.md) |
 | [Deep Active Learning with a Neural Architecture Search](https://papers.nips.cc/paper/8831-deep-active-learning-with-a-neural-architecture-search.html) |  NeurIPS  |    IC     | [github](https://github.com/geifmany/Active-inas) | 2019 | [details](info/Geifman2019Deep.md) |
-| [Searching for MobileNetV3](https://openaccess.thecvf.com/content_ICCV_2019/html/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.html) |  ICCV   |     IC OD SS    | [*github*](https://github.com/leaderj1001/MobileNetV3-Pytorch) | 2019 | [details](info/Howard2019Searching.md) |
+| [Searching for MobileNetV3](https://openaccess.thecvf.com/content_ICCV_2019/html/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.html) |  ICCV   |     IC OD SS    | [(github)](https://github.com/leaderj1001/MobileNetV3-Pytorch) | 2019 | [details](info/Howard2019Searching.md) |
 | [SpArSe: Sparse Architecture Search for CNNs on Resource-Constrained Microcontrollers](https://papers.nips.cc/paper/8743-sparse-sparse-architecture-search-for-cnns-on-resource-constrained-microcontrollers.html) |  NeurlPS   |     IC     | - | 2019 | [details](info/Fedorov2019SpArSe.md) |
 | [Constrained deep neural network architecture search for IoT devices accounting for hardware calibration](https://papers.nips.cc/paper/8838-constrained-deep-neural-network-architecture-search-for-iot-devices-accounting-for-hardware-calibration.html) |  NeurlPS   |     IC    | - | 2019 | [details](info/Scheidegger2019Constrained.md) |
 | [Transferable AutoML by Model Sharing over Grouped Datasets](https://ieeexplore.ieee.org/abstract/document/8953631) |   CVPR    |    IC    | - | 2019 | [details](./info/Xue2019Transferable.md) |
@@ -336,12 +326,12 @@ For a quick look at the field, here is a short list of must-read papers.
 | [Evaluating The Search Phase of Neural Architecture Search](https://openreview.net/forum?id=H1loF2NFwr) |   ICLR    | LM IC | [github](https://github.com/kcyu2014/eval-nas) | 2020 | [details](./info/Yu2020Evaluation.md) |
 | [NAS evaluation is frustratingly hard](https://openreview.net/forum?id=HygrdpVKvr) |   ICLR    | IC | [github](https://github.com/antoyang/NAS-Benchmark) | 2020 | [details](./info/Yang2020NAS.md) |
 | [Towards Fast Adaptation of Neural Architectures with Meta Learning](https://openreview.net/forum?id=r1eowANFvr) |   ICLR    |    IC     | [github](https://github.com/dongzelian/T-NAS) | 2020 | [details](./info/Lian2020Towards.md) |
-|[Adapting Neural Architectures Between Domains](https://proceedings.neurips.cc/paper/2020/hash/08f38e0434442128fab5ead6217ca759-Abstract.html) |NeurIPS|IC| [*github*](https://github.com/liyxi/AdaptNAS)|2020| [details](info/Li2020Adapting.md)|
+|[Adapting Neural Architectures Between Domains](https://proceedings.neurips.cc/paper/2020/hash/08f38e0434442128fab5ead6217ca759-Abstract.html) |NeurIPS|IC| [(github)](https://github.com/liyxi/AdaptNAS)|2020| [details](info/Li2020Adapting.md)|
 | [Theory-Inspired Path-Regularized Differential Network Architecture Search](https://proceedings.neurips.cc/paper/2020/hash/5e1b18c4c6a6d31695acbae3fd70ecc6-Abstract.html) | NeurIPS | IC | [github](https://panzhous.github.io/) |2020 | [details](info/Zhou2020Theory-Inspired.md) |
-| [Semi-Supervised Neural Architecture Search](https://proceedings.neurips.cc/paper/2020/hash/77305c2f862ad1d353f55bf38e5a5183-Abstract.html) | NeurIPS | IC | [*github*](https://github.com/Zumbalamambo/SemiNAS) | 2020 | [details](info/Luo2020Semi-Supervised.md) |
+| [Semi-Supervised Neural Architecture Search](https://proceedings.neurips.cc/paper/2020/hash/77305c2f862ad1d353f55bf38e5a5183-Abstract.html) | NeurIPS | IC | [(github)](https://github.com/Zumbalamambo/SemiNAS) | 2020 | [details](info/Luo2020Semi-Supervised.md) |
 | [Does Unsupervised Architecture Representation Learning Help Neural Architecture Search?](https://proceedings.neurips.cc/paper/2020/hash/937936029af671cf479fa893db91cbdd-Abstract.html) | NeurIPS | IC | [github](https://github.com/MSU-MLSys-Lab/arch2vec) | 2020 | [details](info/Yan2020Does.md) |
 | [Differentiable Neural Architecture Search in Equivalent Space with Exploration Enhancement](https://proceedings.neurips.cc/paper/2020/hash/9a96a2c73c0d477ff2a6da3bf538f4f4-Abstract.html) | NeurIPS | IC | -| 2020 | [details](info/Zhang2020Differentiable.md) |
-| [Understanding and Exploring the Network with Stochastic Architectures](https://proceedings.neurips.cc/paper/2020/hash/aa85e45da94cb0d78853c50ba636a15a-Abstract.html) | NeurIPS| IC | [*github*](https://github.com/thudzj/NSA) | 2020 | [details](info/Deng2020Understanding.md) |
+| [Understanding and Exploring the Network with Stochastic Architectures](https://proceedings.neurips.cc/paper/2020/hash/aa85e45da94cb0d78853c50ba636a15a-Abstract.html) | NeurIPS| IC | [(github)](https://github.com/thudzj/NSA) | 2020 | [details](info/Deng2020Understanding.md) |
 | [Cream of the Crop: Distilling Prioritized Paths For One-Shot Neural Architecture Search](https://proceedings.neurips.cc/paper/2020/hash/d072677d210ac4c03ba046120f0802ec-Abstract.html) | NeurIPS | IC | [github](https://github.com/microsoft/cream.git) | 2020 | [details](info/Peng2020Cream.md)| 
 | [A Study on Encodings for Neural Architecture Search](https://proceedings.neurips.cc/paper/2020/hash/ea4eb49329550caaa1d2044105223721-Abstract.html) | NeurIPS | IC |  [github](https://github.com/naszilla/naszilla) | 2020 | [details](info/White2020A.md) |
 | [Hierarchical Neural Architecture Search for Deep Stereo Matching](https://proceedings.neurips.cc/paper/2020/hash/fc146be0b230d7e0a92e66a6114b840d-Abstract.html) | NeurIPS | O | [github](https://github.com/XuelianCheng/LEAStereo) | 2020 | [details](info/Cheng2020Hierarchical.md) |
@@ -353,13 +343,13 @@ For a quick look at the field, here is a short list of must-read papers.
 
 ### 3 Systems
 
-| Title                                    | Venue  |                   Code                   | Year |
-| :--------------------------------------- | :----: | :--------------------------------------: | :--: |
-| [Auto-Keras: An Efficient Neural Architecture Search System](https://arxiv.org/abs/1806.10282) |   -    | [github](https://github.com/keras-team/autokeras) | 2018 |
-| [Neural Network Intelligence](https://nni.readthedocs.io/en/latest/) |   -    | [github](https://github.com/microsoft/nni) |  -   |
-| [AdaNet: A Scalable and Flexible Framework for Automatically Learning Ensembles](https://arxiv.org/abs/1905.00080) | ICML-W | [github](https://github.com/tensorflow/adanet) | 2019 |
-| [Auto-Panoptic: Cooperative Multi-Component Architecture Search for Panoptic Segmentation](https://proceedings.neurips.cc/paper/2020/hash/ec1f764517b7ffb52057af6df18142b7-Abstract.html) | NeurIPS | [github](https://github.com/Jacobew/AutoPanoptic) | 2020 |
-| [PyGlove: Symbolic Programming for Automated Machine Learning](https://proceedings.neurips.cc/paper/2020/hash/012a91467f210472fab4e11359bbfef6-Abstract.html) | NeurIPS | - | 2020 |
+| Title                                    | Venue  |                   Code                   | Year | Info |
+| :--------------------------------------- | :----: | :--------------------------------------: | :--: | :--: |
+| [Auto-Keras: An Efficient Neural Architecture Search System](https://arxiv.org/abs/1806.10282) |   -    | [github](https://github.com/keras-team/autokeras) | 2018 | [details](./info/Jin2018Auto.md) |
+| [Neural Network Intelligence](https://nni.readthedocs.io/en/latest/) |   -    | [github](https://github.com/microsoft/nni) |  -   | - |
+| [AdaNet: A Scalable and Flexible Framework for Automatically Learning Ensembles](https://arxiv.org/abs/1905.00080) | ICML-W | [github](https://github.com/tensorflow/adanet) | 2019 | [details](./info/Weill2019AdaNet.md) |
+| [Auto-Panoptic: Cooperative Multi-Component Architecture Search for Panoptic Segmentation](https://proceedings.neurips.cc/paper/2020/hash/ec1f764517b7ffb52057af6df18142b7-Abstract.html) | NeurIPS | [github](https://github.com/Jacobew/AutoPanoptic) | 2020 | [details](./info/Wu2020Auto.md) |
+| [PyGlove: Symbolic Programming for Automated Machine Learning](https://proceedings.neurips.cc/paper/2020/hash/012a91467f210472fab4e11359bbfef6-Abstract.html) | NeurIPS | - | 2020 | [github](./info/Peng2020PyGlove.md) |
 
 ## Team Members
 
