@@ -28,6 +28,14 @@ This document lists the papers published from 2017 to February 2021 on Neural Ar
 * Task
   > *We summarize the tasks of these papers according to the experiments described in them.*
   > *For notational simplicity, we use short names of the tasks (in alphabetical order).*
+  > + ASR (Automatic Speech Recognition)
+  >   + speech recognition
+  >   + speaker verification
+  >   + speaker identification
+  >   + acoustic scene classification
+  >   + keyword spotting
+  >   + spoken language identification
+  >   + multilingual speech recognition
   > + CL
   >   + object classification
   >   + scene classification
@@ -50,14 +58,7 @@ This document lists the papers published from 2017 to February 2021 on Neural Ar
   >   + OAR segmentation
   > + SS (Semantic Segmentation)
   > + VU (Video Understanding)
-  > + ASR (Automatic Speech Recognition)
-  >   + speech recognition
-  >   + speaker verification
-  >   + speaker identification
-  >   + acoustic scene classification
-  >   + keyword spotting
-  >   + spoken language identification
-  >   + multilingual speech recognition
+
 
 * Info
   > *Info is an extension of the paper introduction, including Title, Author, Abstract and Bib.*
@@ -130,16 +131,17 @@ This document lists the papers published from 2017 to February 2021 on Neural Ar
 | [Neural Architecture Generator Optimization](https://proceedings.neurips.cc/paper/2020/hash/8c53d30ad023ce50140181f713059ddf-Abstract.html) | NeurIPS | IC IR | [github](https://github.com/huawei-noah/vega/) | 2020 | [details](info/Ru2020Neural.md) |
 | [CLEARER: Multi-Scale Neural Architecture Search for Image Restoration](https://proceedings.neurips.cc/paper/2020/hash/c6e81542b125c36346d9167691b8bd09-Abstract.html) | NeurIPS | IRT | [github](https://github.com/limit-scu) | 2020 | [details](info/Gou2020CLEARER.md) |
 | [RandAugment: Practical Automated Data Augmentation with a Reduced Search Space](https://proceedings.neurips.cc/paper/2020/hash/d85b63ef0ccb114d0a3bb7b7d808028f-Abstract.html) | NeurIPS| IC | [github](github.com/tensorflow/tpu/tree/master/models/official/efficientnet) | 2020 | [details](info/Cubuk2020RandAugment.md) |
+| [Evolved Speech-Transformer: Applying Neural Architecture Search to End-to-End Automatic Speech Recognition](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/1233.html) |   INTERSPEECH  |     ASR    | - | 2020 | [details](info/Kim2020Evolved.md) |
 | [NAS-Bench-ASR: Reproducible Neural Architecture Search for Speech Recognition](https://openreview.net/forum?id=CU0APx9LMaL) |   ICLR  |     O    | - | 2021 | [details](info/Mehrotra2021NAS-Bench-ASR.md) |
 | [HW-NAS-Bench: Hardware-Aware Neural Architecture Search Benchmark](https://openreview.net/forum?id=_0kaDkv3dVf) |   ICLR  |     IC    | [github](https://github.com/RICE-EIC/HW-NAS-Bench) | 2021 | [details](info/Li2021HW-NAS-Bench.md) |
-| [Evolved Speech-Transformer: Applying Neural Architecture Search to End-to-End Automatic Speech Recognition](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/1233.html) |   INTERSPEECH  |     ASR    | - | 2020 | [details](info/Kim2020Evolved.md) |
+
 
 
 #### 2.2 Search Strategy
 ##### 2.2.1 Reinforcement Learning Methods - RL
 | Title                                    |  Venue  | Task |                    Code                  | Year | Info |
 | :--------------------------------------- | :-----: | :--: | :--------------------------------------: | :--: | :--: |
-| [Neural Architecture Search with Reinforcement Learning](https://openreview.net/forum?id=r1Ue8Hcxg) |  ICLR   |   IC LM  |                    -                     | 2017 |[details](info/Zoph2017Neural.md) |
+| [Neural Architecture Search with Reinforcement Learning](https://openreview.net/forum?id=r1Ue8Hcxg) |  ICLR   |   IC LM  |                    -                     | 2017 | [details](info/Zoph2017Neural.md) |
 [Learning to Compose Domain-Specific Transformations for Data Augmentation](http://papers.nips.cc/paper/6916-learning-to-compose-domain-specific-transformations-for-data-augmentation) | NeurIPS | IC O |                       -                     | 2017 |[details](info/Ratner2017Learning.md) |
 [N2N learning: Network to Network Compression via Policy Gradient Reinforcement Learning](https://openreview.net/forum?id=B1hcZZ-AW) |  ICLR   |- |     -                     | 2017 | [details](info/Ashok2017N2N.md) |
 | [Designing Neural Network Architectures using Reinforcement Learning](https://openreview.net/forum?id=S1c2cvqee) |  ICLR   |   IC    |   [github](https://github.com/bowenbaker/metaqnn) | 2017 |[details](info/Baker2017Designing.md) |
@@ -323,7 +325,7 @@ This document lists the papers published from 2017 to February 2021 on Neural Ar
 | [Constrained deep neural network architecture search for IoT devices accounting for hardware calibration](https://papers.nips.cc/paper/8838-constrained-deep-neural-network-architecture-search-for-iot-devices-accounting-for-hardware-calibration.html) |  NeurlPS   |     IC    | - | 2019 | [details](info/Scheidegger2019Constrained.md) |
 | [Transferable AutoML by Model Sharing over Grouped Datasets](https://ieeexplore.ieee.org/abstract/document/8953631) |   CVPR    |    IC    | - | 2019 | [details](./info/Xue2019Transferable.md) |
 | [AutoML Strategy Based on Grammatical Evolution: A Case Study about Knowledge Discovery from Text](https://www.aclweb.org/anthology/P19-1428/) |   ACL    |    O    | [github](https://github.com/knowledge-learning/hp-optimization) | 2019 | [details](./info/Velarde2019AutoML.md) |
-| [Improving Keyword Spotting and Language Identification via Neural Architecture Search at Scale](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/1916.html) |   INTERSPEECH  |    ASR     | - | 2019 | [details](info/Mazzawi2020Improving.md) |
+| [Improving Keyword Spotting and Language Identification via Neural Architecture Search at Scale](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/1916.html) |   INTERSPEECH  |    ASR     | [github](https://github.com/google/model_search/) | 2019 | [details](info/Mazzawi2020Improving.md) |
 | [AutoSTR: Efficient Backbone Search for Scene Text Recognition](https://arxiv.org/abs/2003.06567) |  ECCV   |     O    | [github](https://github.com/AutoML-4Paradigm/AutoSTR) | 2020 | [details](info/Zhang2020AutoSTR.md) |
 | [GroSS: Group-Size Series Decomposition for Grouped Architecture Search](https://arxiv.org/abs/1912.00673) |  ECCV   |     IC    | - | 2020 | [details](info/Howard-Jenkins2020GroSS.md) |
 | [DA-NAS: Data Adapted Pruning for Efficient Neural Architecture Search](https://arxiv.org/abs/2003.12563) |  ECCV   |      IC O    | - | 2020 | [details](info/Dai2020DA-NAS.md) |
@@ -338,7 +340,7 @@ This document lists the papers published from 2017 to February 2021 on Neural Ar
 | [Evaluating The Search Phase of Neural Architecture Search](https://openreview.net/forum?id=H1loF2NFwr) |   ICLR    | LM IC | [github](https://github.com/kcyu2014/eval-nas) | 2020 | [details](./info/Yu2020Evaluation.md) |
 | [NAS evaluation is frustratingly hard](https://openreview.net/forum?id=HygrdpVKvr) |   ICLR    | IC | [github](https://github.com/antoyang/NAS-Benchmark) | 2020 | [details](./info/Yang2020NAS.md) |
 | [Towards Fast Adaptation of Neural Architectures with Meta Learning](https://openreview.net/forum?id=r1eowANFvr) |   ICLR    |    IC     | [github](https://github.com/dongzelian/T-NAS) | 2020 | [details](./info/Lian2020Towards.md) |
-|[Adapting Neural Architectures Between Domains](https://proceedings.neurips.cc/paper/2020/hash/08f38e0434442128fab5ead6217ca759-Abstract.html) |NeurIPS|IC| [(github)](https://github.com/liyxi/AdaptNAS)|2020| [details](info/Li2020Adapting.md)|
+|[Adapting Neural Architectures Between Domains](https://proceedings.neurips.cc/paper/2020/hash/08f38e0434442128fab5ead6217ca759-Abstract.html) | NeurIPS | IC | [(github)](https://github.com/liyxi/AdaptNAS)|2020| [details](info/Li2020Adapting.md)|
 | [Theory-Inspired Path-Regularized Differential Network Architecture Search](https://proceedings.neurips.cc/paper/2020/hash/5e1b18c4c6a6d31695acbae3fd70ecc6-Abstract.html) | NeurIPS | IC | [github](https://panzhous.github.io/) |2020 | [details](info/Zhou2020Theory-Inspired.md) |
 | [Semi-Supervised Neural Architecture Search](https://proceedings.neurips.cc/paper/2020/hash/77305c2f862ad1d353f55bf38e5a5183-Abstract.html) | NeurIPS | IC | [(github)](https://github.com/Zumbalamambo/SemiNAS) | 2020 | [details](info/Luo2020Semi-Supervised.md) |
 | [Does Unsupervised Architecture Representation Learning Help Neural Architecture Search?](https://proceedings.neurips.cc/paper/2020/hash/937936029af671cf479fa893db91cbdd-Abstract.html) | NeurIPS | IC | [github](https://github.com/MSU-MLSys-Lab/arch2vec) | 2020 | [details](info/Yan2020Does.md) |
@@ -362,8 +364,10 @@ This document lists the papers published from 2017 to February 2021 on Neural Ar
 | [Auto-Keras: An Efficient Neural Architecture Search System](https://arxiv.org/abs/1806.10282) |   -    | [github](https://github.com/keras-team/autokeras) | 2018 | [details](./info/Jin2018Auto.md) |
 | [Neural Network Intelligence](https://nni.readthedocs.io/en/latest/) |   -    | [github](https://github.com/microsoft/nni) |  -   | - |
 | [AdaNet: A Scalable and Flexible Framework for Automatically Learning Ensembles](https://arxiv.org/abs/1905.00080) | ICML-W | [github](https://github.com/tensorflow/adanet) | 2019 | [details](./info/Weill2019AdaNet.md) |
+| [Improving Keyword Spotting and Language Identification via Neural Architecture Search at Scale](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/1916.html) |   INTERSPEECH  | [github](https://github.com/google/model_search/) | 2019 | [details](info/Mazzawi2020Improving.md) |
 | [Auto-Panoptic: Cooperative Multi-Component Architecture Search for Panoptic Segmentation](https://proceedings.neurips.cc/paper/2020/hash/ec1f764517b7ffb52057af6df18142b7-Abstract.html) | NeurIPS | [github](https://github.com/Jacobew/AutoPanoptic) | 2020 | [details](./info/Wu2020Auto.md) |
 | [PyGlove: Symbolic Programming for Automated Machine Learning](https://proceedings.neurips.cc/paper/2020/hash/012a91467f210472fab4e11359bbfef6-Abstract.html) | NeurIPS | - | 2020 | [github](./info/Peng2020PyGlove.md) |
+
 
 ## Team Members
 
