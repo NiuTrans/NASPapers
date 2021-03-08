@@ -26,6 +26,10 @@ This document lists the papers published from 2017 to February 2021 on Neural Ar
   > *We find the code for some of the papers (if there are any).*
   > *Parentheses in code links indicate that the code was not written by the author of the paper. (like* [(github)](https://github.com/)*)*
 
+* Type
+  > *We classify the papers according to their types and integrate the papers of the same type together.*
+  > *Please refer to the previous directory for specific classification criteria.*
+
 * Task
   > *We summarize the tasks of these papers according to the experiments described in them.*
   > *For notational simplicity, we use short names of the tasks (in alphabetical order).*
@@ -65,22 +69,19 @@ This document lists the papers published from 2017 to February 2021 on Neural Ar
   > *Info is an extension of the paper introduction, including Title, Author, Abstract and Bib.*
 
 * A Short List
-  > *For a quick look at the field, here is a short list of must-read papers.*
+  > *For a quick look at the field, we summary a short list of must-read papers.*
   > *In this section, we list some highly cited papers, and we also recommend some papers that may be helpful for beginners (bold).*
 
 ## Statistics
 
-<p align="center"><img src="./statistics/1.png" width="70%" height="70%" /></p>
-<p align="center">Figure 1: Number of papers published in NAS field in recent four years.</p>
+<p align="center"><img src="./statistics/1.png" width="100%" height="100%" /></p>
+<p align="center">Figure 1: The number of each Type and annual amounts  in recent four years.(See Outline for Type details)</p>
 
-<p align="center"><img src="./statistics/2.png" width="70%" height="70%" /></p>
-<p align="center">Figure 2: Number of papers for each Type in recent years.(See Outline for Type details)</p>
+<p align="center"><img src="./statistics/2.png" width="90%" height="90%" /></p>
+<p align="center">Figure 2: The Number of papers in each Task area in recent years.(See Outline for Task details)</p>
 
-<p align="center"><img src="./statistics/3.png" width="90%" height="90%" /></p>
-<p align="center">Figure 3: Number of papers in each Task area in recent years.(See Outline for Task details)</p>
-
-<p align="center"><img src="./statistics/4.png" width="70%" height="70%" /></p>
-<p align="center">Figure 4: The word cloud for NAS.</p>
+<p align="center"><img src="./statistics/3.png" width="80%" height="80%" /></p>
+<p align="center">Figure 3: The word cloud for NAS.</p>
 
 
 ## A Short List
