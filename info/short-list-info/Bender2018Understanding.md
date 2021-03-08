@@ -1,0 +1,15 @@
+# Title
+Understanding and Simplifying One-Shot Architecture Search
+
+## Venue
+ICML
+
+## Author
+Gabriel Bender, Pieter-Jan Kindermans, Barret Zoph, Vijay Vasudevan, Quoc Le
+
+## Abstract
+There is growing interest in automating neural network architecture design. Existing architecture search methods can be computationally expensive, requiring thousands of different architectures to be trained from scratch. Recent work has explored weight sharing across models to amortize the cost of training. Although previous methods reduced the cost of architecture search by orders of magnitude, they remain complex, requiring hypernetworks or reinforcement learning controllers. We aim to understand weight sharing for one-shot architecture search. With careful experimental analysis, we show that it is possible to efficiently identify promising architectures from a complex search space without either hypernetworks or RL.
+
+## Bib
+@InProceedings{pmlr-v80-bender18a, title = {Understanding and Simplifying One-Shot Architecture Search}, author = {Bender, Gabriel and Kindermans, Pieter-Jan and Zoph, Barret and Vasudevan, Vijay and Le, Quoc}, booktitle = {Proceedings of the 35th International Conference on Machine Learning}, pages = {550--559}, year = {2018}, editor = {Jennifer Dy and Andreas Krause}, volume = {80}, series = {Proceedings of Machine Learning Research}, address = {Stockholmsmässan, Stockholm Sweden}, month = {10--15 Jul}, publisher = {PMLR}, pdf = {http://proceedings.mlr.press/v80/bender18a/bender18a.pdf}, url = {http://proceedings.mlr.press/v80/bender18a.html}, abstract = {There is growing interest in automating neural network architecture design. Existing architecture search methods can be computationally expensive, requiring thousands of different architectures to be trained from scratch. Recent work has explored weight sharing across models to amortize the cost of training. Although previous methods reduced the cost of architecture search by orders of magnitude, they remain complex, requiring hypernetworks or reinforcement learning controllers. We aim to understand weight sharing for one-shot architecture search. With careful experimental analysis, we show that it is possible to efficiently identify promising architectures from a complex search space without either hypernetworks or RL.} 
+}
