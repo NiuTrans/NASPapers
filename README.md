@@ -70,16 +70,16 @@ This document lists the papers published from 2017 to February 2021 on Neural Ar
 
 ## Statistics
 
-![avatar](./statistics/1.png)
+<p align="center"><img src="./statistics/1.png" width="70%" height="70%" /></p>
 <p align="center">Figure 1: Number of papers published in NAS field in recent four years.</p>
 
-![avatar](./statistics/2.png)
+<p align="center"><img src="./statistics/2.png" width="70%" height="70%" /></p>
 <p align="center">Figure 2: Number of papers for each Type in recent years.(See Outline for Type details)</p>
 
-![avatar](./statistics/3.png)
+<p align="center"><img src="./statistics/3.png" width="70%" height="70%" /></p>
 <p align="center">Figure 3: Number of papers in each Task area in recent years.(See Outline for Task details)</p>
 
-![avatar](./statistics/4.png)
+<p align="center"><img src="./statistics/4.png" width="70%" height="70%" /></p>
 <p align="center">Figure 4: The word cloud for NAS.</p>
 
 
