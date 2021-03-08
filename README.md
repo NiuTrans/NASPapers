@@ -76,7 +76,7 @@ This document lists the papers published from 2017 to February 2021 on Neural Ar
 <p align="center"><img src="./statistics/2.png" width="70%" height="70%" /></p>
 <p align="center">Figure 2: Number of papers for each Type in recent years.(See Outline for Type details)</p>
 
-<p align="center"><img src="./statistics/3.png" width="70%" height="70%" /></p>
+<p align="center"><img src="./statistics/3.png" width="90%" height="90%" /></p>
 <p align="center">Figure 3: Number of papers in each Task area in recent years.(See Outline for Task details)</p>
 
 <p align="center"><img src="./statistics/4.png" width="70%" height="70%" /></p>
