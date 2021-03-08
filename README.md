@@ -6,6 +6,7 @@ This document lists the papers published from 2017 to February 2021 on Neural Ar
 
 - [Paper Lists of Neural Architecture Search](#paper-lists-of-neural-architecture-search)
   - [Outline](#outline)
+  - [Statistics](#statistics)
   - [A Short List](#a-short-list)
   - [A Long List](#a-long-list)
     - [1 Surveys - S](#1-surveys---s)
@@ -66,6 +67,20 @@ This document lists the papers published from 2017 to February 2021 on Neural Ar
 * A Short List
   > *For a quick look at the field, here is a short list of must-read papers.*
   > *In this section, we list some highly cited papers, and we also recommend some papers that may be helpful for beginners (bold).*
+
+## Statistics
+
+![avatar](./statistics/1.png)
+<p align="center">Figure 1: Number of papers published in NAS field in recent four years.</p>
+
+![avatar](./statistics/2.png)
+<p align="center">Figure 2: Number of papers for each Type in recent years.(See Outline for Type details)</p>
+
+![avatar](./statistics/3.png)
+<p align="center">Figure 3: Number of papers in each Task area in recent years.(See Outline for Task details)</p>
+
+<p align="center">Figure 4: The word cloud for NAS.</p>
+
 
 ## A Short List
 
