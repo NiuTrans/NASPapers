@@ -1,6 +1,6 @@
 # Paper Lists of Neural Architecture Search
 
-This document lists the papers published from 2017 to February 2021 on Neural Architecture Search (NAS). We categorize these papers into popular topics and collect the code for them.
+This document lists the papers published from 2017 to February 2021 on Neural Architecture Search (NAS). We collect these papers from 13 conferences and journals, including ACL、IJCAL、AAAI、JMLR、ICLR、EMNLP、CVPR、UAI、ICCV、NeurIPS、ECCV、INTERSPEECH、ICML with covering most NAS research directions. We also categorize these papers into popular topics and collect the code for them.
 
 ## Outline
 
