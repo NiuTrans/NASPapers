@@ -275,7 +275,8 @@ This document lists the papers published from 2017 to February 2021 on Neural Ar
 | [Geometry-Aware Gradient Algorithms for Neural Architecture Search](https://openreview.net/forum?id=MuSYkd1hxRP) |   ICLR  |     IC    | [github](https://github.com/liamcli/gaea_release) | 2021 | [details](info/Li2020Geometry.md) |
 | [Rethinking Architecture Selection in Differentiable NAS](https://openreview.net/forum?id=PKubaeJkw3) |   ICLR  |     IC    | - | 2021 | [details](info/Wang2021Rethinking.md) |
 | [DrNAS: Dirichlet Neural Architecture Search](https://openreview.net/forum?id=9FWas6YbmB3) |   ICLR  |     IC    | [github](https://github.com/xiangning-chen/DrNAS) | 2021 | [details](info/Chen2021DrNAS.md) |
-
+| [Zero-Cost Proxies for Lightweight NAS](https://openreview.net/forum?id=0cmMMy8J5q) |   ICLR  |     IC ASR    | - | 2021 | [details](info/Abdelfattah2021ZeroCost.md) |
+| [DARTS-: Robustly Stepping out of Performance Collapse Without Indicators](https://openreview.net/forum?id=KLH36ELmwIB) |   ICLR  |     IC    | [github](https://github.com/Meituan-AutoML/DARTS-) | 2021 | [details](info/Chu21DARTS-.md) |
 
 
 ##### 2.2.3 Evolutionary Algorithms - EA
