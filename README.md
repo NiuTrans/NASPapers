@@ -132,6 +132,7 @@ This document lists the papers published from 2017 to February 2021 on Neural Ar
 | [A Comprehensive Survey of Neural Architecture Search: Challenges and Solutions](https://arxiv.org/abs/2006.02903) |   -   |                  -                       | 2020 | [details](info/Ren2020A.md) |
 | [Evaluating The Search Phase of Neural Architecture Search](https://openreview.net/forum?id=H1loF2NFwr) | ICLR  | [github](https://github.com/kcyu2014/eval-nas) | 2020 |[details](info/Yu2020Evaluating.md) |
 | [NAS evaluation is frustratingly hard](https://openreview.net/forum?id=HygrdpVKvr) | ICLR | [github](https://github.com/antoyang/NAS-Benchmark) | 2020 | [details](info/Yang2020NAS.md) |
+| [AutoML: A survey of the state-of-the-art.](https://doi.org/10.1016/j.knosys.2020.106622) | Knowl Based Syst | - | 2020 | - |
 
 
 
